@@ -703,41 +703,52 @@
    </teiHeader>
    <text type="record">
       <body>
-         <div>
-         	<head>Bakers’ Audit Book, <date from-iso="1558" to-iso="1559">1558-1559</date></head>
-         </div>
+         <head>Blacksmiths’ Wardens’ Accounts, <date from-iso="1550" to-iso="1551"
+               >1550-51</date></head>
          <div type="transcription">
             <div>
                <head>
-                  <supplied>f 72v (<date from-iso="1557-12-19" to-iso="1558-12-19">19 December
-                        1557–18 December 1558</date>)</supplied>
+                  <supplied>p 121 (<date from-iso="1549-09-29" to-iso="1551-09-29">29 September 1549–29 September 1551</date>) (Payments for the
+                     dinner)</supplied>
                </head>
-               <pb type="folio" n="72v"/>
-               <note type="marginal">
-                  &amp; for ij xv<hi rend="supercript">tens</hi> for ye
-                              <placeName>Citie</placeName> for and ayenst the
-                              <expan>Coronacion</expan> of <persName>quene
-                           Elizabeth</persName></note>
-<table>
+               <pb type="page" n="121"/>
+               <gap reason="omitted"/>
+        
+                  <table>
                      <row>
-                        <cell>Paide in <date>Decembre</date> to Thandes of <persName>Thomas
-                                 <expan>Williamson</expan></persName> and <persName>Thomas
-                              Stamer</persName> Collectours for ij xv.<hi rend="supercript"
-                              >tenes</hi> for the furnyture of <expan>pagentes</expan> ayenst the
-                              <expan>Coronacion</expan> of <persName>quene
-                           Elizabeth</persName></cell>
-                        <cell><measure type="currency">xiij s. iiij d.</measure></cell>
+                        <cell>paid for mynstrelles</cell>
+                        <cell><measure type="currency">viij s.</measure></cell>
                      </row>
                   </table>
+               
                <gap reason="omitted"/>
             </div>
-         </div>
-            <div type="endnote">
-               <div><head><supplied>Endnotes:</supplied></head>
-                  <p>The payment of the two fifteenths as recorded in LMA:
-                     CLC/L/BA/B/001/MS05177/001, f 150v, is briefer.</p>
-               </div>
+            <div>
+               <head>
+                  <supplied>p 123 (Cony feast payments)</supplied>
+               </head>
+               <pb type="page" n="123"/>
+               <gap reason="omitted"/>
+               
+               <ab>
+                  <table>
+                     <row>
+                        <cell>paid to the players</cell>
+                        <cell><measure type="currency">viij s. iiij d.</measure></cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap reason="omitted"/>
             </div>
+           
+         </div>
+         <div type="endnote">
+         	<div><head>Endnotes:</head></div>
+      	<div>
+      		<p>Payments for a biennial dinner around 25 June, in Blacksmiths’ LMA: CLC/L/BD/D/001/MS02883/002, often include a payment for minstrels; so this entry from p 121 (among costs for ‘the dinner’) is almost certainly for one of these midsummer dinners. If so, its date must be 1551, since the midsummer dinners took place at this time in odd-numbered calendar years.</p>
+      		<p>The cony-feast payment from p 123, given the span of the account, could be dated in January 1549/50 or January 1550/1, but at this period the cony feast was apparently held only every second year, in odd-numbered (by the modern calendar) years. Cony-feast receipts, however, are listed under mid- summer quarter, 8 July 1550 (p 111), which is odd, as the 1547–9 account (p 82) includes money received from those attending the (presumably) 1549 feast, and so these 1550 funds (£3 8d, an amount considerably larger than usual feast costs) would presumably be an advance contribution towards the January 1550/1 feast, yet nowhere else in the accounts is money for the cony feast collected in advance of the feast. July is also very much ahead of the usual January quarter day when the cony feast was held. Perhaps the cony feast was not held at the usual time in the company’s 1549–51 year. Perhaps there was a deficit from one or more past feasts. For 1553, cony-feast receipts are listed on p 133, in Christmas quarter as would be expected, although no cony-feast payments are recorded.</p>
+      	</div>
+         </div>
       </body>
    </text>
 </TEI>

@@ -703,41 +703,40 @@
    </teiHeader>
    <text type="record">
       <body>
-         <div>
-         	<head>Bakers’ Audit Book, <date from-iso="1558" to-iso="1559">1558-1559</date></head>
-         </div>
+         <div><head>Merchant Taylors’ Accounts<date from-iso="1550" to-iso="1551"
+               >1550-51</date></head></div>
          <div type="transcription">
             <div>
                <head>
-                  <supplied>f 72v (<date from-iso="1557-12-19" to-iso="1558-12-19">19 December
-                        1557–18 December 1558</date>)</supplied>
+                  <supplied>f 199 (<date from-iso="03-25" to-iso="03-25">25 March-25 March</date>) (Payments)</supplied>
                </head>
-               <pb type="folio" n="72v"/>
-               <note type="marginal">
-                  &amp; for ij xv<hi rend="supercript">tens</hi> for ye
-                              <placeName>Citie</placeName> for and ayenst the
-                              <expan>Coronacion</expan> of <persName>quene
-                           Elizabeth</persName></note>
-<table>
+               <pb type="folio" n="199"/>
+               <gap reason="omitted"/>
+        
+               <ab>
+                  <table>
                      <row>
-                        <cell>Paide in <date>Decembre</date> to Thandes of <persName>Thomas
-                                 <expan>Williamson</expan></persName> and <persName>Thomas
-                              Stamer</persName> Collectours for ij xv.<hi rend="supercript"
-                              >tenes</hi> for the furnyture of <expan>pagentes</expan> ayenst the
-                              <expan>Coronacion</expan> of <persName>quene
-                           Elizabeth</persName></cell>
-                        <cell><measure type="currency">xiij s. iiij d.</measure></cell>
+                        <cell><expan>Item</expan> <expan>paid</expan> to the <expan>waytes</expan> at the ffeaste daye</cell>
+                        <cell><measure type="currency">vj s. viij d.</measure></cell>
+                     </row>
+                     <row>
+                        <cell><expan>Item</expan> <expan>paid</expan> for havyng the Children of <expan>poulles</expan> to playe and
+                           synge here at the said fest daye</cell>
+                        <cell>xiij s. iiij d.</cell>
                      </row>
                   </table>
+               </ab>
                <gap reason="omitted"/>
             </div>
+            
+           
          </div>
-            <div type="endnote">
-               <div><head><supplied>Endnotes:</supplied></head>
-                  <p>The payment of the two fifteenths as recorded in LMA:
-                     CLC/L/BA/B/001/MS05177/001, f 150v, is briefer.</p>
-               </div>
+         <div type="endnote">
+         	<div>
+         	<head>Endnote:</head>
+            	<p>For the June 1551 dating of the feast time, see The Documents, pp cxiii–cxiv.</p>
             </div>
+         </div>
       </body>
    </text>
 </TEI>
