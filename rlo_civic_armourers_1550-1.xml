@@ -703,41 +703,32 @@
    </teiHeader>
    <text type="record">
       <body>
-         <div>
-         	<head>Bakers’ Audit Book, <date from-iso="1558" to-iso="1559">1558-1559</date></head>
-         </div>
+         <div><head>Armourers and Brasiers’ Wardens’ Accounts, <date from-iso="1550" to-iso="1551"
+               >1550-51</date></head></div>
          <div type="transcription">
             <div>
                <head>
-                  <supplied>f 72v (<date from-iso="1557-12-19" to-iso="1558-12-19">19 December
-                        1557–18 December 1558</date>)</supplied>
+                  <supplied>f 165 (Dinner costs, <date when-iso="08-09">9 August</date>)</supplied>
                </head>
-               <pb type="folio" n="72v"/>
-               <note type="marginal">
-                  &amp; for ij xv<hi rend="supercript">tens</hi> for ye
-                              <placeName>Citie</placeName> for and ayenst the
-                              <expan>Coronacion</expan> of <persName>quene
-                           Elizabeth</persName></note>
-<table>
+               <pb type="folio" n="165"/>
+               <gap reason="omitted"/>
+        
+               <ab>
+                  <table>
                      <row>
-                        <cell>Paide in <date>Decembre</date> to Thandes of <persName>Thomas
-                                 <expan>Williamson</expan></persName> and <persName>Thomas
-                              Stamer</persName> Collectours for ij xv.<hi rend="supercript"
-                              >tenes</hi> for the furnyture of <expan>pagentes</expan> ayenst the
-                              <expan>Coronacion</expan> of <persName>quene
-                           Elizabeth</persName></cell>
-                        <cell><measure type="currency">xiij s. iiij d.</measure></cell>
-                     </row>
+                        <cell>
+                           <expan>Item</expan> paide for to the mynstrells</cell>
+                        <cell><measure type="currency">iij s. v d.</measure></cell>
+                          </row>
                   </table>
+               </ab>
                <gap reason="omitted"/>
             </div>
          </div>
-            <div type="endnote">
-               <div><head><supplied>Endnotes:</supplied></head>
-                  <p>The payment of the two fifteenths as recorded in LMA:
-                     CLC/L/BA/B/001/MS05177/001, f 150v, is briefer.</p>
-               </div>
-            </div>
+         <div type="endnote">
+            <p><!--Add text for endnote here - otherwise remove this div tag and all content
+               within--></p>
+         </div>
       </body>
    </text>
 </TEI>
