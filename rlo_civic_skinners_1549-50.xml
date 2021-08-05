@@ -673,64 +673,32 @@
    </teiHeader>
    <text type="record">
       <body>
-         <!--[THIS NOTE IS RESERVED FOR EXPLANATION OF RECORD STRUCTURE. PLEASE REMOVE
-            BEFORE YOU PUBLISH THIS RECORD. There are two levels of div - the
-            outermost level is for the "record" or whole text and/or endnote. Second level is for
-            transcription and translation. If you have multiple gobbets to encode, add them by
-            creating a div element with @type = "record" and then within that div element with @type
-            = "transcription" and "translation" (only adding translation where necessary
-            Information from the REED printed volume headnote is placed at the record level.
-            Page type information is placed within the pb - either folio or single sheet as well as
-            the folio number or other distinguishing number. For transcription or translation,
-            indicate @type and xml:lang. If the record is an excerpt, add a gap element with
-            @reason="omitted". By default the record text is structured using the ab element.
-            If the text is in the form of a table or list, you can change the ab tag to either of
-            those. A second nested div set has been added for convenience. If that div set is
-            not required, please remove.]-->
          
-         <head><title><!--Provide the record name and date from the REED volume in this space
-            (e.g., Middle Temple Treasurer's Receipts, <date from-iso="1614" to-iso="1615">1614–15</date>--></title></head>
+         
+         <head><title>Skinners Receipts and Payments, <date from-iso="1549" to-iso="1550">1549-50</date></title></head>
          <div type="transcription">
             <div>
                <head>
-                  <supplied><!--Provide the editorial subhead from the REED volume in this space (e.g., f 13 (2 November 1614–24 November 1615) (Pensions, fines, rents, and
-                  amercements)--></supplied>
+                  <supplied>f 137* (25 March 1545–25 March 1550) (Repairs at Skinners Hall)</supplied>
                </head>
-               <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
+               <pb type="folio" n="137"/>
                <gap reason="omitted"/>
-               <ab><!--Add text for transcription here--></ab>
-               <gap reason="omitted"/>
-            </div>
-            
-            <div>
-               <head>
-                  <supplied><!--If there is a second record text add headnote text and date here -
-                     otherwise remove this div and all content within--></supplied>
-               </head>
-               <pb/>
-               <gap reason="omitted"/>
-               <ab><!--Add text for transcription here--></ab>
+               
+                  <table>
+                     <row>
+                        <cell>It<ex>e</ex>m for takinge the pagentes &amp; settinge of them vp agayne</cell>
+                        <cell>xvj d.</cell>
+                     </row>
+                     </table>
                <gap reason="omitted"/>
             </div>
          </div>
-         
-         <div type="translation">
-            <head>
-               <supplied><!--Provide the editorial subhead from the REED volume in this space (e.g., f 13 (2 November 1614–24 November 1615) (Pensions, fines, rents, and
-                  amercements)--></supplied>
-            </head>
-            <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
-            <gap reason="omitted"/>
-            <ab><!--Add text for translation here - otherwise remove this div tag and all content
-               within--></ab>
-            <gap reason="omitted"/>
-         </div>
-         
+                     
          <div type="endnote">
-            <div><head></head>
-            <p><!--Add text for endnote here - otherwise remove this div tag and all content
-               within--></p>
-            </div>
+            <div>
+               <head>Endnotes:</head>
+            <p>TEXT</p>
+         </div>
          </div>
          
       </body>
