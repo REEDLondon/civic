@@ -694,11 +694,13 @@
    <text type="collection" xml:id="founders_wardens">
       <body>
          <head><title>Founders’ Wardens’ Accounts, 1497-1577</title></head>
-         <bibl>
+         <div type="record_information">
+            <bibl>
             <biblScope>
                <idno>LMA: CLC/L/FG/D/001/MS06330/001</idno>
             </biblScope>
          </bibl>
+         </div>
          <div type="record_set">
             <head><title>Founders' Wardens' Accounts, 1498–9</title></head>
             <div type="record" xml:lang="en">
@@ -708,13 +710,14 @@
                <ab>
                   <table>
                      <row>
-                        <cell role="label">It<ex>e</ex>m to the Mynstrell<ex>es</ex><note type="foot">Mynstrelles: for the feast time</note></cell>
+                        <cell role="label">It<ex>e</ex>m to the Mynstrell<ex>es</ex><note
+                              type="foot">Mynstrelles: for the feast time</note></cell>
                         <cell role="data">xx d.</cell>
                      </row>
                   </table>
                </ab>
                <gap/>
-            </div>            
+            </div>
          </div>
          <div type="record_set">
             <head><title>Founders' Wardens' Accounts, 1499-1500</title></head>
@@ -725,13 +728,14 @@
                <ab>
                   <table>
                      <row>
-                        <cell role="label">It<ex>em</ex> to the Mynstrell<ex>es</ex><note type="foot">Mynstrelles: for the feast time</note></cell>
+                        <cell role="label">It<ex>em</ex> to the Mynstrell<ex>es</ex><note
+                              type="foot">Mynstrelles: for the feast time</note></cell>
                         <cell role="data">xx d.</cell>
                      </row>
                   </table>
                </ab>
                <gap/>
-            </div>            
+            </div>
          </div>
          <div type="record_set">
             <head><title>Founders' Wardens' Accounts, 1500-1501</title></head>
@@ -742,13 +746,14 @@
                <ab>
                   <table>
                      <row>
-                        <cell role="label">It<ex>e</ex>m the Mynstrell<ex>es</ex><note type="foot">Mynstrelles: for the feast time</note></cell>
+                        <cell role="label">It<ex>e</ex>m the Mynstrell<ex>es</ex><note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
                         <cell role="data">xx d.</cell>
                      </row>
                   </table>
                </ab>
                <gap/>
-            </div>            
+            </div>
          </div>
          <div type="record_set">
             <head><title>Founders' Wardens' Accounts, 1501-1502</title></head>
@@ -759,27 +764,326 @@
                <ab>
                   <table>
                      <row>
-                        <cell role="label">It<ex>e</ex>m the Mynstrell<ex>es</ex><note type="foot">Mynstrelles: for the feast time</note></cell>
+                        <cell role="label">It<ex>e</ex>m the Mynstrell<ex>es</ex><note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
                         <cell role="data">xx d.</cell>
                      </row>
                   </table>
                </ab>
                <gap/>
-            </div>                                          
+            </div>
             <div type="record" xml:lang="en">
                <label>(16 September–16 September) (Payments) (REED: Civic, Appendix 6)</label>
                <pb type="page" n="47"/>
                <gap reason="omitted"/>
                <ab>
                   <table>
-                  <row>
-                     <cell role="label">It<ex>e</ex>m paid for the standyng of our
-                           Compeigny<del>g</del> and pavyng of the ground</cell>
-                     <cell role="data">xxj s. <del>v</del>ij d.</cell>
-                  </row>
-               </table>
+                     <row>
+                        <cell role="label">It<ex>e</ex>m paid for the standyng of our
+                              Compeigny<del>g</del> and pavyng of the ground</cell>
+                        <cell role="data">xxj s. <del>v</del>ij d.</cell>
+                     </row>
+                  </table>
                </ab>
                <gap reason="omitted"/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1502-1503</title></head>
+            <div type="record" xml:lang="en">
+               <label>(16 September–16 September) (Payments first at supper)</label>
+               <pb type="page" n="54"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>e</ex>m the Mynstrell<ex>es</ex><note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
+                        <cell role="data">xx d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1504-1505</title></head>
+            <div type="record" xml:lang="en">
+               <label>(10 November–10 November) (Paid for the supper)</label>
+               <pb type="page" n="65"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>e</ex>m the Mynstrell<ex>es</ex><note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
+                        <cell role="data">xx d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1509-1510</title></head>
+            <div type="record" xml:lang="en">
+               <label>(24 November 1509–4 January 1510/11) (Expenses laid out)</label>
+               <pb type="page" n="92"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for xvj yerd<ex>es</ex> whytt
+                           cottyn for watche mene at mydsom<ex>er</ex></cell>
+                        <cell role="data">ix s. iiij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>id</ex> for makyng off iiij
+                              cott<ex>es</ex></cell>
+                        <cell role="data">xx d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1510-1511</title></head>
+            <div type="record" xml:lang="en">
+               <label>(24 November 1509–4 January 1510/11) (Mass and dinner expenses)</label>
+               <pb type="page" n="95"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>e</ex>m paid to the mynstrall<ex>es</ex><note
+                              type="foot">Mynstrelles: for 15 December</note></cell>
+                        <cell role="data">xx d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+            <div type="endnote">
+               <label>Endnote</label>
+               <p>The manuscript heading (p 93) specifies taht the dinner was 'mayd' by the three wardens on the Sunday after the Conception of Our Lady in 2 Henry VIII (that is, on 15 December 1510), who also on this occasion distributed blue livery. Although 15 December is well past what appears to be the company's normal August/September (perhaps even October) feast time (see The Documents, p. xcviii), the accounting span this year unusually runs from 1509 to January 1510/11, so the mass, dinner, and minstrels here are indeed presumably at the annual feast time.</p>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1510-1512</title></head>
+            <div type="record" xml:lang="en">
+               <label>(4 January 1510/11–2 October 1512) (Expenses for the supper)</label>
+               <pb type="page" n="104"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>em</ex> for<ex>e</ex> Mynstrells<note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
+                        <cell role="data">xx d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+            <div type="endnote">
+               <label>Endnote</label>
+               <p>During this irregularly long accounting span (almost two years, and not according to the company's usual dates), this feast-time supper could be in 1511 or in 1512, if held independently of the accounting span. It is probably in 1512, however, since the account ends in that year and does not include two suppers or dinners. For the Founders' feast time, see The Documents, p xcviii.</p>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1517-1518</title></head>
+            <div type="record" xml:lang="en">
+               <label>(24 October––18 October) (Costs of your dinner, 27 September)</label>
+               <pb type="page" n="153"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>em</ex> payd the Mynstrells<note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
+                        <cell role="data">ij s.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1518-1519</title></head>
+            <div type="record" xml:lang="en">
+               <label>(18 October––15 October) (Costs of your supper 20 August)</label>
+               <pb type="page" n="167"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>e</ex>m payd the Mynstrells<note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
+                        <cell role="data">xx d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1521-1522</title></head>
+            <div type="record" xml:lang="en">
+               <label>(23 October–September) (Payments)</label>
+               <pb type="page" n="190"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>e</ex>m payd at mydsom<ex>er</ex> for viij
+                              &#540;erd<ex>es</ex> of why&#540;t Cottyn pris</cell>
+                        <cell role="data">iiij s.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+            <div type="endnote">
+               <label>Endnote</label>
+               <p>The account span must be deduced from the surrounding accounts, the datings of which are also problematic, but the preceding account (which has a self-contradictory dating) can be worked out as for 1520–1 (ending 23 October), and the following account, as for 1522–3. The wardens named in the main account heading, as in their first year, are those named as incoming at the end of the preceding (1520–1) account. The only date on this 1521–2 account is 32 September, with no calendar year(s) or regnal year(s) supplied; the date is an error for 22 or 23 September (as a closing date), as 32 cannot refer either to the calendar year or to the regnal year (September 1522 would be 14 Henry VIII), and '33' September is given as a closing or audit date on p 195. On p 194 appears what seems to be another version of the record on p 190 (both are from the same account), and so it has not been transcribed and included here, although it is possible that the company bought two lots of white cotton.</p>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1524-1525</title></head>
+            <div type="record" xml:lang="en">
+               <label>(18 October––19 October) (Costs of your dinner 26 August)</label>
+               <pb type="page" n="215"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>e</ex>m payd the Mynstrells<note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
+                        <cell role="data">ij s.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1526-1527</title></head>
+            <div type="record" xml:lang="en">
+               <label>(October––14 October) (Expenses for the dinner)</label>
+               <pb type="page" n="228"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>em</ex> ffor A menstrell<note type="foot"
+                              >Mynstrelles: for the feast time</note></cell>
+                        <cell role="data">xij d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+            <div type="endnote">
+               <label>Endnote</label>
+               <p>No opening or closing month is given in the heading of the preceding account, but internal evidence shows that this account begins in October.</p>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1527-1528</title></head>
+            <div type="record" xml:lang="en">
+               <label>(14 October––25 October) (Dinner expenses, 16 August)</label>
+               <pb type="page" n="237"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>em</ex> payd for A menstrell<note type="foot"
+                              >menstrell: for the feast time</note></cell>
+                        <cell role="data">iiij d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1528-1529</title></head>
+            <div type="record" xml:lang="en">
+               <label>(26 October––23 October) (Dinner expenses)</label>
+               <pb type="page" n="245"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>e</ex>m payd for A menstrell<note type="foot"
+                              >menstrell: for the feast time</note></cell>
+                        <cell role="data">iiij d.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1528-1529</title></head>
+            <div type="record" xml:lang="en">
+               <label>(23 October 1529––25 October1530) (Expenses)</label>
+               <pb type="page" n="254"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for ix yerd<ex>es</ex> of
+                           cotton</cell>
+                        <cell role="data">iiij s. iij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for scarlet &amp;
+                           vyolet</cell>
+                        <cell role="data">xiiij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for a quere of paper</cell>
+                        <cell role="data">ij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for makyng of ij
+                              cott<ex>es</ex></cell>
+                        <cell role="data">xij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for ij allmayn
+                              Revett<ex>es</ex></cell>
+                        <cell role="data">xvj d/</cell>
+                     </row>
+                     <row>
+                        <cell role="label">p<ex>ai</ex> to ij men In &#254;e mayers wache saynt
+                           Iohns nyght &amp; saynt peturs nyght</cell>
+                        <cell role="data">xvj d.</cell>
+                     </row>
+                  </table>
+               </ab>
+            </div>
+            <gap/>
+            <div type="record" xml:lang="en">
+               <label>(Dinner expenses)</label>
+               <pb type="page" n="256"/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d to &#254;e
+                              mynstrell<ex>es</ex></cell>
+                        <cell role="data">ij s.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d to &#254;e
+                              players<note>mynstrelles, players: for the feast time</note></cell>
+                        <cell role="data">iij s.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
             </div>
          </div>
          <div type="record_set">
@@ -791,7 +1095,7 @@
                   <row>
                      <cell role="label">p<ex>ai</ex>d to ij mene at mydesumer &#x00FE;<ex>a</ex>t
                         bare &#x00FE;e Cresetes &amp; one &#x00FE;<ex>a</ex>t bare &#x00FE;e
-                           lyght<ex>es</ex></cell>
+                        lyght<ex>es</ex></cell>
                      <cell role="data">iij s.</cell>
                   </row>
                   <row>
@@ -811,56 +1115,33 @@
                </table>
                <gap reason="omitted"/>
             </div>
-         </div>
-         <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1502-1503</title></head>
+         </div>         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1539-1540</title></head>
             <div type="record" xml:lang="en">
-               <label>(16 September–16 September) (Payments first at supper)</label>
-               <pb type="page" n="54"/>
+               <label>(15 October–11 October) (Payments)</label>
+               <pb type="page" n="280"/>
                <gap/>
                <ab>
                   <table>
                      <row>
-                        <cell role="label">It<ex>e</ex>m the Mynstrell<ex>es</ex><note type="foot">Mynstrelles: for the feast time</note></cell>
-                        <cell role="data">xx d.</cell>
-                     </row>
-                  </table>
-               </ab>
-               <gap/>
-            </div>            
-         </div>
-         <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1504-1505</title></head>
-            <div type="record" xml:lang="en">
-               <label>(10 November–10 November) (Paid for the supper)</label>
-               <pb type="page" n="65"/>
-               <gap/>
-               <ab>
-                  <table>
-                     <row>
-                        <cell role="label">It<ex>e</ex>m the Mynstrell<ex>es</ex><note type="foot">Mynstrelles: for the feast time</note></cell>
-                        <cell role="data">xx d.</cell>
-                     </row>
-                  </table>
-               </ab>
-               <gap/>
-            </div>            
-         </div>
-         <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1509-1510</title></head>
-            <div type="record" xml:lang="en">
-               <label>(24 November 1509–4 January 1510/11) (Expenses laid out)</label>
-               <pb type="page" n="92"/>
-               <gap/>
-               <ab>
-                  <table>
-                     <row>
-                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for xvj yerd<ex>es</ex> whytt cottyn for watche mene at mydsom<ex>er</ex></cell>
-                        <cell role="data">ix s. iiij d.</cell>
+                        <cell role="label">p<ex>ai</ex>d to ij mene at mydseumer &#254;<ex>a</ex>t
+                           bare &#254;e Creset<ex>es</ex> &amp; one &#254;<ex>a</ex> bare &#254;e
+                              lyght<ex>es</ex></cell>
+                        <cell role="data">iij s.</cell>
                      </row>
                      <row>
-                        <cell role="label">It<ex>em</ex> p<ex>id</ex> for makyng off iiij cott<ex>es</ex></cell>
-                        <cell role="data">xx d.</cell>
+                        <cell role="label">It<ex>em</ex> to ij mene &#254;<ex>a</ex>t bare
+                           bowys</cell>
+                        <cell role="data">xvij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">p<ex>ai</ex>d for Creset lyght<ex>es</ex> &#254;e stone
+                           ij d. ob.</cell>
+                        <cell role="data">ij s. xj d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> iij straw hat<ex>es</ex></cell>
+                        <cell role="data">iiij d.</cell>
                      </row>
                   </table>
                </ab>
@@ -868,123 +1149,199 @@
             </div>
          </div>
          <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1510-1511</title></head>
+            <head><title>Founders' Wardens' Account, 1540-1541</title></head>
             <div type="record" xml:lang="en">
-               <label>**(24 November 1509–4 January 1510/11) (Mass and dinner expenses)</label>
-               <pb type="page" n="95"/>
+               <label>(11 October 1540–19 October 1541</label>
+               <pb type="page" n="289"/>
                <gap/>
                <ab>
                   <table>
                      <row>
-                        <cell role="label">It<ex>e</ex>m paid to the mynstrall<ex>es</ex><note type="foot">Mynstrelles: for 15 December</note></cell>
-                        <cell role="data">xx d.</cell>
+                        <cell role="label">p<ex>ai</ex>d for a C wayt<ex>e</ex> of Cresset
+                              lyght<ex>es</ex></cell>
+                        <cell role="data">ij s. iiij d.</cell>
                      </row>
-                  </table>
-               </ab>
-               <gap/>
-            </div>            
-         </div>
-         <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1510-1512</title></head>
-            <div type="record" xml:lang="en">
-               <label>**(4 January 1510/11–2 October 1512) (Expenses for the supper)</label>
-               <pb type="page" n="104"/>
-               <gap/>
-               <ab>
-                  <table>
                      <row>
-                        <cell role="label">It<ex>em</ex> for<ex>e</ex> Mynstrells<note type="foot">Mynstrelles: for the feast time</note></cell>
-                        <cell role="data">xx d.</cell>
+                        <cell role="label">p<ex>ai</ex>d to ij mene &#254;<ex>a</ex>t bare &#254;e
+                              Cresset<ex>es</ex> &amp; on &#254;<ex>a</ex>t bare &#254;e bage</cell>
+                        <cell role="data">iij s.</cell>
                      </row>
-                  </table>
-               </ab>
-               <gap/>
-            </div>            
-         </div>
-         <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1517-1518</title></head>
-            <div type="record" xml:lang="en">
-               <label>(24 October––18 October) (Costs of your dinner, 27 September)</label>
-               <pb type="page" n="153"/>
-               <gap/>
-               <ab>
-                  <table>
                      <row>
-                        <cell role="label">It<ex>em</ex> payd the Mynstrells<note type="foot">Mynstrelles: for the feast time</note></cell>
-                        <cell role="data">ij s.</cell>
-                     </row>
-                  </table>
-               </ab>
-               <gap/>
-            </div>            
-         </div>
-         <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1518-1519</title></head>
-            <div type="record" xml:lang="en">
-               <label>(18 October––15 October) (Costs of your supper 20 August)</label>
-               <pb type="page" n="167"/>
-               <gap/>
-               <ab>
-                  <table>
-                     <row>
-                        <cell role="label">It<ex>e</ex>m payd the Mynstrells<note type="foot">Mynstrelles: for the feast time</note></cell>
-                        <cell role="data">xx d.</cell>
-                     </row>
-                  </table>
-               </ab>
-               <gap/>
-            </div>            
-         </div>
-         <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1521-1522</title></head>
-            <div type="record" xml:lang="en">
-               <label>**(23 October–September) (Payments)</label>
-               <pb type="page" n="190"/>
-               <gap/>
-               <ab>
-                  <table>
-                     <row>
-                        <cell role="label">It<ex>e</ex>m payd at mydsom<ex>er</ex> for viij &#540;erd<ex>es</ex> of why&#540;t Cottyn pris</cell>
-                        <cell role="data">iiij s.</cell>
+                        <cell role="label">p<ex>ai</ex>d to ij mene w<ex>i</ex>t<ex>h</ex>
+                           bowys</cell>
+                        <cell role="data">xvij d.</cell>
                      </row>
                   </table>
                </ab>
                <gap/>
             </div>
-         </div>
-         <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1524-1525</title></head>
             <div type="record" xml:lang="en">
-               <label>(18 October––19 October) (Costs of your dinner 26 August)</label>
-               <pb type="page" n="215"/>
+               <pb type="page" n="292"/>
                <gap/>
+               <ab>Thes be &#254;e Chargys of &#254;e barge at &#254;e tryommffe of quene
+                  kateryn</ab>
                <ab>
                   <table>
                      <row>
-                        <cell role="label">It<ex>e</ex>m payd the Mynstrells<note type="foot">Mynstrelles: for the feast time</note></cell>
-                        <cell role="data">ij s.</cell>
+                        <cell role="label">It<ex>em</ex> for a grene ffysshe a goyle of sale sawmond
+                           &amp; for a habredyne</cell>
+                        <cell role="data">ij s. viij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> for brede</cell>
+                        <cell role="data">vj d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> for bere ale &amp; fagot</cell>
+                        <cell role="data">xj d. ob.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> for buter</cell>
+                        <cell role="data">ij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for hyere of &#254;e
+                           barge</cell>
+                        <cell role="data">xiij s. iiij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for rower<ex>es</ex> &amp;
+                           sterys man</cell>
+                        <cell role="data">x s.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for &#254;e hyere of an
+                           ynsterment</cell>
+                        <cell role="data">xx d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> for Cord<ex>es</ex> &amp; <add
+                              place="above">pake</add> therede</cell>
+                        <cell role="data">j d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d for oyster<ex>es</ex></cell>
+                        <cell role="data">j d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">It<ex>em</ex> p<ex>ai</ex>d In drynking money to &#254;e
+                           rowyers</cell>
+                        <cell role="data">iiij d.</cell>
+                     </row>
+                     <row>
+                        <cell>It<ex>em</ex> p<ex>ai</ex>d to &#254;e Clarke for playeng of &#254;e
+                           ynsterment</cell>
+                        <cell role="data">iiij d.</cell>
                      </row>
                   </table>
                </ab>
                <gap/>
-            </div>            
+            </div>
+            <div type="endnote">
+               <label>Endnote</label>
+               <p>The account heading wrongly gives the account's closing year as 30 Henry VIII (that is, 1538); the closing statement by the auditors gives the clearly correct year, 33 Henry VIII (taht is, 1541). The preceding account closes 11 October 1540 and the following account opens 19 October 1541. The 'tryommffe' of Katherine Howard is the city's escorting of her and Henry VIII by water to Greenwich on 19 March; see Appendix 1.</p>
+            </div>
          </div>
          <div type="record_set">
-            <head><title>Founders' Wardens' Accounts, 1526-1527</title></head>
+            <head><title>Founders' Wardens' Accounts, 1541-1542</title></head>
             <div type="record" xml:lang="en">
-               <label>**(October––14 October) (Expenses for the dinner)</label>
-               <pb type="page" n="228"/>
+               <label>(19 October–19 October) (Payments)</label>
+               <pb type="page" n="298"/>
                <gap/>
                <ab>
                   <table>
                      <row>
-                        <cell role="label">It<ex>em</ex> ffor A menstrell<note type="foot">Mynstrelles: for the feast time</note></cell>
+                        <cell role="label">p<ex>ai</ex>d for iij q<ex>ua</ex>rterns of C of
+                              Cresset<ex>es</ex> lyght</cell>
+                        <cell role="data">xxij d. ob.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">p<ex>ai</ex>d for mendyng &#254;e halle be syde &#254;e
+                           Coberd</cell>
+                        <cell role="data">iiij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">p<ex>ai</ex>d to iij mene at mydesomer ij
+                              w<ex>i</ex>t<ex>h</ex> Cresset<ex>es</ex> &amp; one &#254;<ex>a</ex>t
+                           bare &#254;e lyght<ex>es</ex></cell>
+                        <cell role="data">iij s.</cell>
+                     </row>
+                  </table>
+               </ab>
+            </div>
+            <gap/>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1542-1543</title></head>
+            <div type="record" xml:lang="en">
+               <label>(19 October 1542–24 October 1543)</label>
+               <pb type="page" n="304"/>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">p<ex>ai</ex>d for Cresset lyghte</cell>
+                        <cell role="data">xvj d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">for iij hatt<ex>es</ex> &amp; xij poynt<ex>es</ex></cell>
+                        <cell role="data">iiij d.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">for ij &#254;<ex>a</ex>t bare &#254;<ex>e</ex>
+                              Cresset<ex>es</ex></cell>
+                        <cell role="data">ij s.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">for on &#254;<ex>a</ex>t bare &#254;<ex>e</ex> bage
+                              w<ex>i</ex>t<ex>h</ex> lyght<ex>es</ex></cell>
                         <cell role="data">xij d.</cell>
                      </row>
+                     <row>
+                        <cell role="label">fpr ij bowmene</cell>
+                        <cell role="data">xvj d.</cell>
+                     </row>
+                  </table>
+               </ab>
+            </div>
+            <gap/>
+         </div>
+         <div type="record_set">
+            <head><title>Founders' Wardens' Accounts, 1543-1544</title></head>
+            <div type="record" xml:lang="en">
+               <pb type="page" n="308"/>
+               <label>(24 October–20 October) (Master's receipts)</label>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">R<ex>ecei</ex>uid of players for playing in the
+                           hall</cell>
+                        <cell role="data">v s. iiij d.</cell>
+                     </row>
                   </table>
                </ab>
                <gap/>
-            </div>            
+            </div>
+            <div type="record" xml:lang="en">
+               <pb type="page" n="311"/>
+               <label>(Warden's receipts)</label>
+               <gap/>
+               <ab>
+                  <table>
+                     <row>
+                        <cell role="label">>R<ex>ecei</ex>uid of players for playing in the
+                           hall</cell>
+                        <cell role="data">x s.</cell>
+                     </row>
+                  </table>
+               </ab>
+               <gap/>
+            </div>
+            <div type="endnote">
+               <label>Endnote</label>
+               <p>The original manuscript headings are receipts of Mr Bere (p 308)  and receipts of Mr Taylor (p 311). John Bere (Beer, Beers, etc; see Parsloe, <title>Founders</title>, p 455) was company master in 1543–4. Roger Taylor was one of the company wardens in 1543–4 (see Parsloe, <title>Founders</title>, p 487).</p>
+            </div>
          </div>
          <div type="record_set">
             <head><title>Founders’ Wardens’ Accounts, 1544–5 (REED: Civic)</title></head>
