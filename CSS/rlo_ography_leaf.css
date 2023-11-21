@@ -739,6 +739,10 @@ listPerson > person {
     display: block;
     margin-bottom: 0.5em;
 }
+/* DKJ adding text before list of people */
+listperson:before {
+    content: "People who participated in the event: " ;
+}
 measure {
     display: inline;
 }
