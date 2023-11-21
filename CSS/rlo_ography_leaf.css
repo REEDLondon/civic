@@ -737,7 +737,7 @@ listBibl {
 /*  DKJ adding line break after listPerson */
 listPerson > person {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 measure {
     display: inline;
@@ -857,6 +857,10 @@ pb[type = "folio"]:before {
 pb[type = "page"]:before {
     content: "page ";
     font-weight: bold;
+}
+/* DKJ changing structure of person group */
+personGrp persName {
+    margin-bottom: 1em;    
 }
 div persName,
 div placeName,
