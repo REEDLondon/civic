@@ -742,6 +742,8 @@ listPerson > person {
 /* DKJ adding text before list of people */
 listperson:before {
     content: "People who participated in the event: " ;
+    font-style: oblique;
+    margin-bottom: inherit;
 }
 measure {
     display: inline;
