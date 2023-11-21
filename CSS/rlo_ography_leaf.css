@@ -868,6 +868,7 @@ pb[type = "page"]:before {
 personGrp persName:after {
     display: block;
     margin-bottom: .5em;    
+    content: "PERSON! "
 }
 div persName,
 div placeName,
