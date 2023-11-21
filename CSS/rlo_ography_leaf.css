@@ -662,14 +662,12 @@ l {
 label {
     display: block;
     font-weight: bold;
-    color: #2F4F4F;
-    font-size: larger;
+    font-size: 18px;
     
 }
 Label {
     display: inline;
     font-weight: bold;
-    color: #2F4F4F;
     background-color: inherit;
 }
 argument > label,
@@ -737,10 +735,9 @@ listBibl {
     margin-bottom: 0.5em;
 }
 /*  DKJ adding line break after listPerson */
-listPlace > person,
 listPerson > person {
     display: block;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 measure {
     display: inline;
