@@ -49,6 +49,10 @@ addrLine {
     display : block;
     white-space : nowrap;
 }*/
+
+affiliation:before {
+    content: ", ";
+}
 anchor {
     display: none;
 }
@@ -661,6 +665,7 @@ l {
 }*/
 label {
     display: block;
+    font-weight: bold;
     font-size: 18px;
     
 }
