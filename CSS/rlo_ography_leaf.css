@@ -737,9 +737,10 @@ listBibl {
     margin-bottom: 0.5em;
 }
 /*  DKJ adding line break after listPerson */
-listPerson {
+listPlace > person,
+listPerson > person {
     display: block;
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
 }
 measure {
     display: inline;
