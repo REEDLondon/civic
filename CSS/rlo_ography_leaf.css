@@ -859,9 +859,9 @@ pb[type = "page"]:before {
     font-weight: bold;
 }
 /* DKJ changing structure of person group */
-personGrp > persName {
+personGrp persName {
     display: block;
-    margin-bottom: 1em;    
+    margin-bottom: .5em;    
 }
 div persName,
 div placeName,
