@@ -661,15 +661,14 @@ l {
 }*/
 label {
     display: block;
-    font-weight: bold;
     font-size: 18px;
     
 }
-Label {
+/*Label {
     display: inline;
     font-weight: bold;
     background-color: inherit;
-}
+}*/
 argument > label,
 body > label,
 div > label,
