@@ -875,11 +875,14 @@ pb[type = "page"]:before {
     content: "page ";
     font-weight: bold;
 }
+/* DKJ italicizing persona */
+persona {
+    font-style: italic;
+}
 /* DKJ changing structure of person group */
 personGrp persName:after {
     display: block;
     margin-bottom: .5em;    
-    content: "PERSON! "
 }
 div persName,
 div placeName,
@@ -928,13 +931,15 @@ publicationStmt > pubPlace {
     display: block;
     margin-bottom: 0.5em;
 }
+/* DKJ hide quotation marks, italicize text */
 q {
     display: inline;
-    quotes: '"' '"' "'" "'";
+/*    quotes: '"' '"' "'" "'";*/
     margin-top: 0em;
     margin-left: 0em;
     margin-right: 0em;
     margin-bottom: 0em;
+    font-style: italic;
 }
 q[rend = "display"],
 argument > q,
