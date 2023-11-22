@@ -936,7 +936,7 @@ publicationStmt > pubPlace {
 /* DKJ hide quotation marks, italicize text */
 q {
     display: inline;
-/*    quotes: '"' '"' "'" "'";*/
+    quotes: none;
     margin-top: 0em;
     margin-left: 0em;
     margin-right: 0em;
