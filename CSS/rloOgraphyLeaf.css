@@ -877,6 +877,8 @@ pb[type = "page"]:before {
 }
 /* DKJ italicizing persona */
 persona {
+    display: block;
+    margin-bottom: .2em;
     font-style: italic;
 }
 /* DKJ changing structure of person group */
@@ -961,12 +963,13 @@ epigraph > q {
     margin-right: 3em;
     quotes: none;
 }
-q:before {
+/* DKJ hiding quotes */
+/*q:before {
     content: open-quote;
 }
 q:after {
     content: close-quote;
-}
+}*/
 
 /* styling block quotes */
 quote {
