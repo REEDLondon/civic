@@ -546,13 +546,13 @@ body > div > div > div > head:before {
 }
 head {
         display: block;
-    padding-top: 7px;
-    padding-bottom: 10px;
+/*    padding-top: 7px;
+    padding-bottom: 10px;*/
     color: inherit;
     font-weight: bold;
     margin-bottom: 0.5em;
     margin-top: 1em;
-    font-size: 18px;
+    font-size: 14px;
 }
 hi {
     display: inline;
