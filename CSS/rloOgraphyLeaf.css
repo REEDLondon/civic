@@ -839,6 +839,9 @@ notesStmt {
 num {
     display: inline;
 }
+occupation > location:before {
+    content: ': ';
+}
 opener {
     display: block;
     margin-bottom: 0.5em;
