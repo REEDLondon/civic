@@ -544,6 +544,16 @@ body > div > div > div > head:before {
     color: black;
     background-color: inherit;
 }
+head {
+        display: block;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    color: inherit;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-size: 18px;
+}
 hi {
     display: inline;
     background-color: yellow;
@@ -738,16 +748,10 @@ listBibl {
     display: block;
     margin-bottom: 0.5em;
 }
-/*  DKJ adding line break after listPerson */
-listPerson > person {
+/*  DKJ adding line break after person within listPerson */
+person {
     display: block;
-    margin-bottom: 0.5em;
-}
-/* DKJ adding text before list of people */
-listperson:before {
-    content: "People who participated in the event: " ;
-    font-style: oblique;
-    margin-bottom: inherit;
+    margin-bottom: 0.3em;
 }
 measure {
     display: inline;
