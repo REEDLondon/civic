@@ -748,6 +748,12 @@ listBibl {
     display: block;
     margin-bottom: 0.5em;
 }
+
+/* RM making list item names bold */
+list > item > name {
+    font-weight: bold;
+}
+
 /*  DKJ adding line break after person within listPerson */
 person {
     display: block;
@@ -851,47 +857,37 @@ opener p {
     text-indent: 0 !important;
 }
 
-/* Org style for orgography */
+/* Org style for orgography RM*/
 org {
     display: block;
 }
 
 org:before {
     content: "\a";
-    white-space: pre
+    white-space: pre;
 }
 
 orgName {
     display: block;
     font-weight: bold;
-    font-size:1.25em
+    font-size: 1.25em;
 }
 
 org > label:before {
     content: "Order of Precedence: ";
-    font-weight:bold
+    font-weight: bold;
 }
 
 org > label {
     display: block;
 }
-org > place:before {
-    content: "\aHall(s): ";
-    white-space:pre;
-    font-weight:bold
+
+org > listPlace > place > placeName:after {
+    content: ", " attr(from) "-" attr(to);
 }
 
-org > place > placeName:before{
-    content: "\a    ";
-    white-space: pre;
-}
-
-org > place > placeName:after {
-    content: ", " attr(from) "-" attr(to)
-}
-
-org > place {
-    display: block
+org > listPlace > place > placeName {
+    display: block;
 }
 
 org > listEvent:before {
