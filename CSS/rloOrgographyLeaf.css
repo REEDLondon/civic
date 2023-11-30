@@ -862,36 +862,45 @@ org {
     display: block;
 }
 
+/* White space between each org RM */
 org:before {
     content: "\a";
     white-space: pre;
 }
 
+/* Make orgName bigger font RM */
 orgName {
     display: block;
     font-weight: bold;
     font-size: 1.25em;
 }
 
-org > label:before {
-    content: "Order of Precedence: ";
+/* Display Order of Precedence label RM */
+org > label {
+    display: block;
     font-weight: bold;
 }
 
-org > label {
-    display: block;
-}
-
+/* list dates with Hall names RM */
 org > listPlace > place > placeName:after {
     content: ", " attr(from) "-" attr(to);
 }
 
+/* display each hall name on own lines RM */
 org > listPlace > place > placeName {
     display: block;
 }
 
+/* display each event on own line RM */
 org > listEvent > event > eventName {
     display: block;
+}
+
+/* display collection link on own line, spaced */
+org > bibl > title {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
 }
 orig {
     display: inline;
