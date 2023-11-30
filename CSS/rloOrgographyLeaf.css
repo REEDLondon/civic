@@ -890,14 +890,8 @@ org > listPlace > place > placeName {
     display: block;
 }
 
-org > listEvent:before {
-    content:"\aNotable Dates:";
-    font-weight:bold;
-    white-space:pre
-}
-org > listEvent > event > eventName:before {
-    content: "\a    "attr(when) ": ";
-    white-space:pre
+org > listEvent > event > eventName {
+    display: block;
 }
 orig {
     display: inline;
