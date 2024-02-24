@@ -725,7 +725,9 @@
                   <hi rend="italic"> errata, listed at this point, are corrected in transcription
                      with textual notes</hi></note>. ... sigs B1–E3</p>
          </div>
-         <div type="castlist"><castList>
+         <div type="castlist">
+            <head>Role List</head>
+            <castList>
             <head>THE NAMES OF THE SPEAKERS.</head>
             <castItem><role>Honour</role>
                <roleDesc>a Goddesse.</roleDesc></castItem>
