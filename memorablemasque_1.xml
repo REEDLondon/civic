@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="https://cwrc.ca/islandora/object/cwrc%3A5d5159ce-8710-4717-b977-cc528dedc25e/datastream/CSS/view" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="tei/records/" xml:id="london"
+   xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Inns of Court</title>
+
+
+            <funder>
+               <orgName>Andrew W. Mellon Foundation, New York, United States of America</orgName>
+            </funder>
+            <funder>
+               <orgName>CANARIE</orgName>
+            </funder>
+
+            <funder>
+               <orgName>British Academy, London, UK</orgName>
+            </funder>
+            <funder>
+               <orgName>Jackman Foundation, Toronto, Canada</orgName>
+            </funder>
+            <funder>
+               <orgName>National Endowment for the Humanities, Washington, DC, United States of
+                  America</orgName>
+            </funder>
+            <funder>
+               <orgName>Social Sciences and Humanities Research Council, Ottawa, Canada</orgName>
+            </funder>
+
+            <editor resp="print">
+               <persName xml:id="AHN1">Alan H. Nelson</persName>
+            </editor>
+            <editor resp="print">
+               <persName>John R. Elliott, Jr.</persName>
+            </editor>
+
+
+            <!--              REED staff              -->
+            <respStmt>
+               <persName xml:id="CB">Carolyn Black</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>William Cooke</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>English Glossarian</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="PG">Patrick Gregory</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer, Translator</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Founder and Senior Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Arleane Ralph</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Paleographer</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Abigail Ann Young</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Latin Glossarian</resp>
+            </respStmt>
+
+
+            <!--              NHPRC-Mellon Team, 2018              -->
+            <respStmt>
+               <persName>John Bradley</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Susan Brown</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KC">Kathy Chung</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>REED Research Associate, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JC">James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+               <resp>TEI Schema Designer, Technical Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London, Birkbeck College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Tanya Hagen</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Bibliographer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Mihaela Iloven</persName>
+               <orgName>Canadian Writing Research Collaboratory</orgName>
+               <resp>CWRC project manager, NHPRC-Mellon advisor</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JAKA1">Diane K. Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board</resp>
+               <resp>Principal Investigator, NHPRC-Mellon Digital Edition Publishing Cooperatives
+                  Planning Grant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>David Kathman</persName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <resp>Principal Investigator, SSHRC grant; Director of Research and General
+                  Editor</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="KM">Kimberley Martin</persName>
+               <orgName>University of Guelph</orgName>
+               <resp>NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Christopher Matusiak</persName>
+               <orgName>Ithaca College</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName xml:id="JN">Jamie Norrish</persName>
+               <resp>Programmer, EATS developer, NHPRC-Mellon Project Consultant</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Dorothy Porter</persName>
+               <orgName>University of Pennsylvania</orgName>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Records of Early English Drama (REED) Executive Board Member</resp>
+               <resp>NHPRC-Mellon Project Team Member</resp>
+            </respStmt>
+
+            <!--              Bucknell Research Assistantx              -->
+            <respStmt>
+               <persName>Ari Baughman</persName>
+               <orgName>Bucknell Univerity</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Maureen Maclean</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Rachel Milio</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+            <respStmt>
+               <persName>Charlotte Simon</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>REED London research assistant, 2018</resp>
+            </respStmt>
+
+         </titleStmt>
+         <editionStmt>
+            <edition>Print version, published <date when-iso="2010">2010</date>. Electronic edition,
+               anticipated publication <date when-iso="2018">2018</date></edition>
+         </editionStmt>
+
+         <publicationStmt>
+            <authority>
+               <orgName>Records of Early English Drama (REED)</orgName>
+               <address>
+                  <addrLine>University of Toronto</addrLine>
+                  <addrLine>170 St George Street, Suite 810</addrLine>
+                  <addrLine>Toronto, Ontario, Canada</addrLine>
+                  <addrLine>M5R 2M8</addrLine>
+               </address>
+            </authority>
+
+            <publisher>D.S. Brewer, Cambridge, an imprint of Boydell &amp; Brewer Ltd./Boydell &amp;
+               Brewer Ltd.</publisher>
+            <pubPlace>Rochester, NY</pubPlace>
+            <date>2010</date>
+            <idno type="other">978-1-84384-259-0</idno>
+
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2017</date></p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  (CC BY-NC-SA 4.0) licence.</licence>
+            </availability>
+         </publicationStmt>
+
+         <seriesStmt>
+            <title>Records of Early English Drama</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This publication constitutes a remediation of the printed Inns of Court collection.
+               Information on original sources for transcriptions can be accessed via the Document
+               Descriptions.</p>
+            <p>This record can be found on [PAGE(S)] of REED: Inns of Court, Vol. [#]</p>
+            <p>For a full list of REED collections, editors, executive board members, and staff,
+               please visit http://reed.utoronto.ca/people</p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="taxon" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../taxonomy.xml#$1">
+               <p>Private URIs using the <code>taxon</code> prefix are pointers to entities in the
+                  taxonomy.xml file. For example, <code>taxon:church</code> dereferences to
+                     <code>taxonomy.xml#church</code>.</p>
+            </prefixDef>
+            <prefixDef ident="gloss" matchPattern="([A-Za-z0-9_-]+)"
+               replacementPattern="../glossary.xml#$1">
+               <p>Private URIs using the <code>gloss</code> prefix are pointers to entities in the
+                  glossary.xml file. For example, <code>gloss:histrio-1</code> dereferences to
+                     <code>glossary.xml#histrio-1</code>.</p>
+            </prefixDef>
+         </listPrefixDef>
+
+         <projectDesc>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
+         </projectDesc>
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <settingDesc>
+            <place>
+               <placeName>London</placeName>
+            </place>
+         </settingDesc>
+      </profileDesc>
+      <xenoData xmlns:mods="http://www.loc.gov/mods/v3">
+         <mods:mods>
+            <mods:titleInfo>
+               <mods:title>Title</mods:title>
+               <mods:subTitle>Some subtitle here</mods:subTitle>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+               <mods:title>Alternative title</mods:title>
+            </mods:titleInfo>
+            <mods:name type="corporate">
+               <mods:namePart>Corporate Author Name</mods:namePart>
+            </mods:name>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:genre type="formatType">Born Digital</mods:genre>
+            <mods:genre type="format">born digital</mods:genre>
+            <mods:genre type="primaryGenre">Scholarly writing</mods:genre>
+            <mods:genre type="subgenre">Reference work</mods:genre>
+            <mods:genre>Performance</mods:genre>
+            <mods:language>
+               <mods:languageTerm type="text">English</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+               <mods:form authority="marccategory">electronic resource</mods:form>
+               <mods:internetMediaType>text/xml</mods:internetMediaType>
+               <mods:digitalOrigin>born digital</mods:digitalOrigin>
+            </mods:physicalDescription>
+            <mods:abstract>Some abstract here.</mods:abstract>
+            <mods:subject>
+               <mods:topic valueURI="http://id.loc.gov/authorities/subjects/sh2002012473"
+                  >Theater--England--London--History--17th century </mods:topic>
+            </mods:subject>
+            <mods:subject>
+               <mods:geographic valueURI="http://www.geonames.org/2643743/">London</mods:geographic>
+            </mods:subject>
+            <mods:subject>
+               <mods:temporal point="start">1601</mods:temporal>
+               <mods:temporal point="end">1700</mods:temporal>
+            </mods:subject>
+            <mods:accessCondition type="use and reproduction">Use of this public-domain resource is
+               governed by the &lt;a rel="license"
+               href="http://creativecommons.org/licenses/by-nc/4.0/" target="blank"&gt;Creative
+               Commons Attribution-NonCommercial 4.0 International
+               License&lt;/a&gt;.</mods:accessCondition>
+            <mods:recordInfo>
+               <mods:recordOrigin>This MODS record was created using the Islandora XML Forms
+                  collection of Drupal modules.</mods:recordOrigin>
+               <mods:languageOfCataloging>
+                  <mods:languageTerm type="text">English</mods:languageTerm>
+               </mods:languageOfCataloging>
+               <mods:recordContentSource>Canadian Writing Research
+                  Collaboratory</mods:recordContentSource>
+            </mods:recordInfo>
+         </mods:mods>
+      </xenoData>
+   </teiHeader>
+
+   <text ana="taxon:masque" type="record" xml:id="abcde">
+
+      <body><div type="front_matter">
+         <head>
+            <date when-iso="1613">1613</date>
+         </head>
+
+         <head>
+            <supplied>Masque of the Middle Temple and Lincoln's Inn alias The Memorable
+               Masque</supplied>
+         </head>
+         <pb type="sheet"/>
+
+         <div type="letter" xml:id="intro_letter">
+            <p> TO THE MOST NOble, and constant Combiner of Honor, and Vertue, <persName
+                  ref="https://commons.cwrc.ca/reed:138c6fc5-82df-4467-b328-3869188e602e"
+                  type="real" xml:id="persName_fvr_1rs_k1c" key="Edward Phelips">Sir EDWARD
+                  PHILIPS</persName>, <name type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/knight" key="knight">Knight</name>,
+                  <name type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/masterOfTheRolls"
+                  key="Master of the Rolls">Mr. of the Rolls</name>. <eventName
+                  key="Memorable Masque" when="1613-02-15">This Noble and Magnificent
+                  performance</eventName>, renewing the ancient spirit, and Honor of the <orgName
+                  key="Inns of Court" ref="https://www.wikidata.org/wiki/Q278697">Innes of
+                  Court</orgName>; being especially furthered and followed by your most laborious
+               and honored endeuors, (for <persName
+                  ref="https://commons.cwrc.ca/reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  type="real" xml:id="persName_gvr_1rs_k1c" key="King James I">his
+                  Maiesties</persName> seruice; and honour of <eventName
+                  key="Wedding of Princess Elizabeth Stuart" when="1613-02-14">the
+                  all-grace-deseruing Nuptialls, of the thrice gracious <persName
+                     ref="https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="real" xml:id="persName_hvr_1rs_k1c" key="Princess Elizabeth Stuart"
+                     >Princesse Elizabeth</persName>, his Highness daughter)</eventName> deserues
+               especially to be in this sort consecrate, to your worthy memory and honor. Honor,
+               hauing neuer her faire hand more freely and nobly giuen to Riches (being a fit
+               particle of this Inuention) then by yours, at this Nuptiall solemnity. To which
+               assisted, and | memorable ceremony; the ioin’d hand and industry, of the worthely
+               honour’d Knight, <persName
+                  ref="https://commons.cwrc.ca/reed:f51598a8-683f-4e16-8ecb-fc7991da314f"
+                  type="real" xml:id="persName_ivr_1rs_k1c" key="Henry Hubbard">Sir H.
+                  Hubberd</persName>, his Maiesties <name key="Attorney General" type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/attorneyGeneral">Atturny
+               generall</name>, deseruing, in good part, a ioint memory with yours; I haue submitted
+               it freely to his noble acceptance. The poore paines I added to this, Royall seruice,
+               being wholly chosen, and commanded by your most constant, and free fauour; I hope
+               will now appeare nothing neglectiue of their expected duties. Hearty wil, and care
+               enough, I am assured was employ’d in me; and the onely ingenuous will, being first
+               and principall step to vertue; I beseech you let it stand for the performing vertue
+               it selfe. In which addition of your euer-honour’d fauours, you shall euer binde all
+               my future seruice to your most wished Commandement God send you long health, and your
+               Vertues will endue you with honor enough, By your free merits euer vow’d honorer, and
+               most vnfainedly affectionate Obseruant. </p>
+            <ab>
+               <persName key="George Chapman" role="author"
+                  ref="https://cwrc.ca/islandora/object/reed%3A71d81ba5-d255-4fbb-9961-2d9d92a7780e"
+                  >GEO. CHAPMAN.</persName> | </ab>
+         </div>
+         <div type="performance">
+            <p xml:id="masque_title">
+               <title key="Memorable Masque" ref="https://www.wikidata.org/wiki/Q7750957">THE MASKE
+                  OF THE Gentlemen of the two combin’d houses, or <orgName
+                     ref="https://www.wikidata.org/wiki/Q278697" key="Inns of Court">Inns of
+                     Court</orgName>, the <orgName key="Middle Temple"
+                     ref="https://www.wikidata.org/wiki/Q925942">Middle-Temple</orgName>, and
+                     <orgName key="Lincoln's Inn" ref="https://www.wikidata.org/wiki/Q69482"
+                     >Lincolns Inne</orgName></title>. </p>
+            <p> At <placeName key="The Rolls" type="http://id.lincsproject.ca/eml/Residence">the
+                  house of the most worthely honour’d preferrer and gracer of all honorable Actions,
+                  and vertues, (<persName
+                     ref="https://commons.cwrc.ca/reed:138c6fc5-82df-4467-b328-3869188e602e"
+                     type="real" xml:id="persName_jvr_1rs_k1c" key="Edward Phelips">sir Edward
+                     Philips</persName>
+                  <name type="occupation" key="Knight"
+                     ref="http://id.lincsproject.ca/occupation/knight">Knight</name>, <name
+                     type="occupation" key="Master of the Rolls"
+                     ref="http://id.lincsproject.ca/occupation/masterOfTheRolls">Master of the
+                     Rolls</name>)</placeName> al the<name type="occupation" key="Performer"
+                  ref="http://id.lincsproject.ca/occupation/performer">Performers</name> and their
+               Assistents made their Rendesvous, prepar’d to their performance, and thus set forth. </p>
+            <p> Fiftie <name type="occupation" key="Gentlemen"
+                  ref="http://id.lincsproject.ca/occupation/gentleman">Gentlemen</name>, richly
+               attirde, and as gallantly mounted, with <name type="occupation" key="Footmen"
+                  ref="http://id.lincsproject.ca/occupation/manservant">Foot-men</name> perticularly
+               attending, made the noble vant-guarde of these <eventName
+                  key="Wedding of Princess Elizabeth Stuart" when="1613-02-14">Nuptiall</eventName>
+               forces. Next (a fit distance obseru’d betweene them) marcht a mock-|Maske of <name
+                  type="object">Baboons</name>, attir’d like fantasticall Trauailers, in <name
+                  type="object">Neapolitane sutes</name>, and great <name type="object"
+                  >ruffes</name>, all horst with <name type="object">Asses</name>; and dwarfe
+               Palfries, with <name type="object">yellow foot-cloathes</name>, and casting <name
+                  type="object">Cockle-demois</name> about, in courtesie, by way of lardges; <name
+                  type="object">Torches</name> boarn on either hand of them; lighting their state as
+               ridiculously, as the rest Nobly. After them were sorted two Carrs Triumphall, adornd
+               with great <name type="object">Maske heads</name>, <name type="object"
+                  >Festones</name>, <name type="object">scroules</name>, and <name type="object"
+                  >antick leaues</name>, euery part inricht with siluer and golde. These were
+               through-varied with different inuention, and in them aduanc’t, the choice <name
+                  type="occupation" key="Musicians"
+                  ref="http://id.lincsproject.ca/occupation/musicOccupation">Musitions</name> of our
+               Kingdome, sixe in each; <span type="classical_allusion">attir’d like Virginean
+                  Priests, by whom the Sun is there ador’d; and therfore called the Phœbades.</span>
+               Their <name type="object">Robes</name> were tuckt vp before; strange <name
+                  type="object">Hoods</name> of feathers, and scallops about their neckes, and on
+               their heads <name type="object">turbants</name>, stucke with seuerall colour’d
+               feathers, spotted with wings of Flies, of extraordinary bignesse; like those of their
+               countrie: And about them march’t two ranks of <name type="object">Torches</name>.
+               Then rode the chiefe <name type="occupation" key="Masquers"
+                  ref="http://id.lincsproject.ca/occupation/performer">Maskers</name>, in In-|<note
+                  type="foot"> start of sig A2</note>dian habits, all of a resemblance: the ground
+               cloath of siluer, richly embroidered, with golden Sunns, and about euery Sunne, ran a
+               traile of gold, imitating Indian worke,: their bases of the same stuffe and work, but
+               betwixt euery pane of embroidery, went a rowe of white Estridge feathers, mingled
+               with sprigs of golde plate; vnder their breasts, they woare bawdricks of golde,
+               embroidered high with purle, and about their neckes, Ruffes of feathers, spangled
+               with pearle and siluer. On their heads high sprig’d- feathers, compast in <name
+                  type="object">Coronets</name>, like the Virginian Princes they presented. Betwixt
+               euery set of feathers, and about their browes, in the vnder-part of their Coronets,
+               shin’d Sunnes of golde plate, sprinkled with pearle; from whence sprung rayes of the
+               like plate, that mixing vvith the motion of the feathers, shew’d exceedingly
+               delightfull, and gracious. Their legges were adorn’d, with close long white <name
+                  type="object">silke-stockings</name>: curiously embroidered vvith golde to the
+               Middelegge.| </p>
+            <p> And ouer these (being on horse backe) they drew greaues or buskins embrodered with
+               gould, &amp; enterlac’t with rewes of fethers; Altogether estrangfull, and Indian
+               like. </p>
+            <p> In their Hands (set in seueral postures as they rode) they brandisht <name
+                  type="object">cane darts</name> of the finest gould. Their <name type="object"
+                  >vizerds</name> of oliue collour; but pleasingly visag’d: their hayre, blacke and
+               lardge, wauing downe to their shoulders.</p>
+            <p> Their <name type="object">Horse</name>, for rich show, equalld the <name
+                  type="occupation" key="Masquers"
+                  ref="http://id.lincsproject.ca/occupation/performer">Maskers</name> them-selues;
+               all their caparisons being enchac’t with sunnes of Gould and Ornamentall Iewells. To
+               euery one of which, was tackt a Scarffing of Siluer; that ran sinnuousely in workes
+               ouer the whole caparison, euen to the daseling of the admiring spectators.</p>
+            <p> Their heads, no lesse gracefully and properly deckt with the like light skarffing
+               that hung about their eares wantonly dangling.</p>
+            <p> Euery one of these horse, had two <name key="Animal Keeper"
+                  ref="http://id.lincsproject.ca/occupation/animalKeeper" type="occupation"
+                  >Moores</name>, attir’d like Indian slaues, that for state sided them; with
+               swelling wreaths of gould, and watshed on their heads, which arose in all to | the
+               number of a hundred. </p>
+            <p> The <name type="occupation" ref="http://id.lincsproject.ca/occupation/performer"
+                  key="Torch Bearers">Torch-bearers</name> habits were likewise of the Indian garb,
+               but more strauagant then those of the <name type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/performer" key="Masquers"
+               >Maskers</name>; all showfully garnisht with seueral- hewd fethers. The humble
+               variety whereof, stucke off the more amplie, the Maskers high beauties, shining in
+               the habits of themselues; and reflected in their kinde, a new and delightfully-varied
+               radiance on the beholders. </p>
+            <p> All these sustaind <name type="object">torches of Virgine wax</name>, whose staues
+               were <name type="object">great canes</name> al ouer gilded; And these (as the rest)
+               had euery Man his <name key="Animal Keeper"
+                  ref="http://id.lincsproject.ca/occupation/animalKeeper" type="occupation"
+                  >Moore</name>, attending his <name type="object">horse</name>.</p>
+            <p> The <name type="occupation" ref="http://id.lincsproject.ca/occupation/performer"
+                  key="Masquers">Maskers</name>, riding single; had euery Masker, his <name
+                  type="occupation" ref="http://id.lincsproject.ca/occupation/performer"
+                  key="Torch Bearers">Torch-bearer</name> mounted before him.</p>
+            <p> The last <name type="object">Charriot</name>, which was most of all adornd; had his
+               whole frame fill’d with moulded worke; mixt all with <name type="object"
+                  >paintings</name>, and glittering scarffings of siluer; ouer which was cast a
+               Canopie of golde, <span type="classical_allusion">boarne vp with antick figures, and
+                  all compos’d a la Grotesea.</span> Before this in the seate of it, as the
+               Chario-|tere; vvas aduanc’t a strange person, and as strangely habited, half French,
+               halfe Swizz; his name <persName type="character">Capriccio</persName>; wearing on his
+               head a paire of golden <name type="object">Bellowes</name>, a guilt spurre in one
+               hand, and with the other mannaging the reignes of the fowre <name type="object"
+                  >Horses</name> that drewe it. </p>
+            <p>On a seate of the same <name type="object">Chariot</name>, a little more eleuate,
+                  <span type="classical_allusion">sate <persName type="character"
+                  >Eunomia</persName>, the Virgine Priest of the Goddesse Honor, together with
+                     <persName type="character">Phemis</persName>, her Herald:</span> The habite of
+               her <persName type="character">Priest</persName>, was a <name type="object">Robe of
+                  white silke</name>, gathered about the necke; a <name type="object"
+                  >pentacle</name> of siluered stuffe about her shoulders, hanging foldedly downe,
+               both before and behind.</p>
+            <p> A <name type="object">vestall vaile</name> on her head of Tiffany, strip’t with
+               siluer, hanging with a trayne, to the earth.</p>
+            <p> The <persName type="character">Herrald</persName> was attyr’d in an <name
+                  type="object">Antique Curace</name> of siluer stuffe, with labells at the wings
+               and basses; a short <name type="object">gowne</name> of gould stuffe; with wide
+               sleeues, cut in panes: A <name type="object">wreath of gould</name> on his head, and
+               a <name type="object">Rod of gould</name> in his hand. |</p>
+            <p>
+               <span type="classical_allusion">Highest of all in the most eminent seate of the
+                  Tryumphall sat, side to side, the cœlestiall Goddesse, <name type="character"
+                     >Honour</name>; and the earthy Deity, <name type="entertainment">Plutus</name>;
+                  or Riches.</span> His attire; a short <name type="object">robe</name> of gould,
+               frindg’d; his wide sleeues turn’d vp, and out-showd his naked armes: his Head and
+               Beard sprinckl’d with showrs of gould: his Buskins, clinckant, as his other attire.
+               The <name type="object">Ornaments of Honor</name> were these: a rich full <name
+                  type="object">robe</name> of blew silke girt about her, a mantle of siluer worne
+               ouer-thwart, ful gathered, and descending in folds behind: a <name type="object"
+                  >vaile</name> of net lawne, enbrodered with Oos and Spangl’d; her tresses in
+               tucks, braided with siluer: The hinder part shadowing in waues her shoulders. These,
+               thus perticularly, and with proprietie adorn’d, were strongly attended with a full
+               Guard of two hundred <persName type="character">Halbardiers</persName>: two <persName
+                  type="character">Marshals</persName> (being choice Gentlemen, of either house)
+               Commaunder-like attir’d, to and fro coursing, to keepe all in their orders. |</p>
+            <p> A showe at all parts so nouell, conceitfull and glorious, as hath not in this land,
+               (to the proper vse and obiect it had porpos’d) beene euer before beheld. Nor did
+               those honorable Inns of Court, at any time in that kinde, such acceptable seruice to
+               the sacred Maiesty of this kingdome, nor were return’d by many degrees, with so
+               thrice gratious, and royall entertainment and honor. But, (as aboue sayd) all these
+               so marching to the Court at <placeName key="Whitehall"
+                  ref="https://commons.cwrc.ca/reed:ce34b0ad-858b-4f6b-99c6-f61d24c97b61">White
+                  Hall</placeName>, the <persName
+                  ref="https://commons.cwrc.ca/reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  type="real" xml:id="persName_kvr_1rs_k1c" key="King James I">King</persName>,
+                  <persName ref="https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                  type="real" xml:id="persName_lvr_1rs_k1c" key="Princess Elizabeth Stuart"
+                  >Bride</persName>, &amp; <persName
+                  ref="https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                  type="real" xml:id="persName_mvr_1rs_k1c" key="Prince Frederick V"
+                  >Bridegroom</persName>, with all <name type="occupation"
+                  key="Lords of the Privy Council"
+                  ref="http://id.lincsproject.ca/occupation/higherGovernmentOccupation">the Lords of
+                  the most honord priuy Councel</name>, and our chief Nobility, stood in the Gallery
+               before the <placeName key="Tiltyard"
+                  ref="https://cwrc.ca/islandora/object/reed%3A938eac79-5fc0-4cd1-9e15-b526e14b17b4"
+                  >Tilt-yeard</placeName>, to behold their arriuall; who, for the more ful
+               satisfaction of his Maiesties view, made one turn about the yeard, and dismounted:
+               being then honorably attended through the Gallery to a Chamber appointed, where they
+               were to make ready for their performance in the Hall, &amp;c.</p>
+            <p>
+               <persName ref="https://commons.cwrc.ca/reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  type="real" xml:id="persName_nvr_1rs_k1c" key="King James I">The King</persName>
+               beeing come forth, the <name type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/performer" key="Masquers">Maskers</name>
+               ascended vnseene to their scœne. Then for the works.</p>
+         </div>
+         <div type="set">
+            <p> First there appear’d at the lower end of the | Hall, an <name ana="set"
+                  type="object">Artificiall Rock</name>, whose top was neere as high as the hall it
+               selfe. This Rock, was in the vndermost part craggy, and full of hollow places, in
+               whose concaues were contriv’d, two winding paire of staires, by whose greeces the
+               Persons aboue might make their descents, and all the way be seene: all this Rocke
+               grew by degrees vp into a gold-colour; and was run quite through, with veines of
+               golde: On the one side whereof, eminently raised on a faire hill, was erected a
+               siluer <name ana="set" type="object">Temple</name> of an octangle figure, whose
+               Pillars were of a compos’d order, and bore vp an Architraue, Freese, and Cornish:
+               Ouer which stood a continued Plinthe; whereon were aduaunc’t <name type="object"
+                  >Statues</name> of siluer: Aboue this, was placed a bastarde Order of
+               Architecture, wherein were keru’d Compartements: In one of which was written in great
+               golde Capitalls, HONORIS FANVM: Aboue all, was a Coupolo, or Type, which seem’d to be
+               scal’d with siluer <name type="object">Plates</name>.</p>
+            <p>
+               <span type="classical_allusion">For finishing, of all, vpon a <name ana="set"
+                     type="object">Pedistall</name>, was fixt a <name type="object">round stone of
+                     siluer</name>, from which grew a paire of golden wings, both faign’d to bee |
+                     <persName type="character">Fortunes</persName>: the round stone (when her feet
+                  trod it) euer affirm’d to be rouling; figuring her inconstancy: the golden wings,
+                  denoting those nimble Powres, that pompously beare her about the world</span>;
+                  <span type="classical_allusion">On that Temple (erected to her daughter, <persName
+                     type="character">Honor</persName>; and figuring this kingdome) put off by her,
+                  and fixt, for assured signe she would neuer forsake it.</span>
+            </p>
+            <p> About this Temple, hung <name type="object">Festones</name> wreath’d with siluer
+               from one Pillars head to another. Besides, the Freese was enricht with keruings, all
+               shewing Greatnes and Magnificence.</p>
+            <p> On the other side of the Rocke, grewe a <name ana="set" type="object">Groue</name>,
+               in whose vtmost part appear’d a vast, wither’d, and hollow Tree, being the bare
+               receptacle of the <name ana="set" type="object">Baboonerie</name>.</p>
+            <p> These following should in duty haue had their proper places, after euery fitted
+                  <name type="entertainment">speech</name> of the <name type="occupation"
+                  key="Actors" ref="http://id.lincsproject.ca/occupation/performer">Actors</name>;
+               but being preuented by the vnexpected haste of the <name type="occupation"
+                  key="Printer" ref="http://id.lincsproject.ca/occupation/printingOccupation"
+                  >Printer</name>, which he neuer let me know, and neuer sending me a proofe, till
+               he had past those speeches; I had no reason to imagine hee could haue been so
+               forward. His fault is therfore to be supplied by the obserua-|tion, and reference of
+               the Reader, who will easily perceiue, where they were to bee inserted.</p>
+            <p> After the speech of <persName type="character">Plutus</persName> (who as you may
+               see after, first entred) the middle part of the <name ana="set" type="object"
+                  >Rocke</name> began to moue, and being come some fiue paces vp towards the
+                  <persName ref="https://commons.cwrc.ca/reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  type="real" xml:id="persName_ovr_1rs_k1c" key="King James I">King</persName>, it
+               split in peeces with a great crack; and out brake <name type="character"
+                  >Capriccio</name>, as before described. The peeces of the Rocke vanisht and he
+               spake as in his place.</p>
+            <p> At the singing of the first <name type="entertainment">Song</name>, full, <span
+                  type="classical_allusion"> which was sung by the <name type="character">Virginian
+                     Priests</name>; called the <name type="character">Phœbades</name></span>, <span
+                  type="classical_allusion">to sixe <name type="object">Lutes</name> (being vsed as
+                  an Orphean vertue, for the state of the Mines opening):</span> the vpper part of
+               the <name ana="set" type="object">Rock</name> was sodainly turn’d to a <name
+                  ana="set" type="entertainment">Cloude</name>, discouering a rich and refulgent
+               Mine of golde; in which the twelue <name key="Masquers" type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/performer">Maskers</name> vvere
+               triumphantly seated: their <name key="Torch Bearers"
+                  ref="http://id.lincsproject.ca/occupation/performer" type="occupation"
+                  >Torch-bearers</name> attending before them. All the lights beeing so ordred, that
+               though none were seen, yet had their lustre such vertue, that by it, the least
+               spangle or spark of the <name ref="http://id.lincsproject.ca/occupation/performer"
+                  key="Masquers" type="occupation">Maskers</name> rich <name type="object"
+                  >habites</name>, might with ease and cleerenesse be discerned as far off as the
+               seate. |</p>
+            <p> Ouer this golden <name ana="set" type="object">Mine</name>,in an Euening sky,the
+               ruddy <name ana="set" type="object">Sunne</name> was seen ready to be set; and behind
+               the tops of certaine white <name ana="set" type="object">Cliffes</name>, by degrees
+               descended, casting vp a banke of Cloudes; in which, a while hee was hidden: but then
+               gloriously shining, gaue that vsually-obseru’d good Omen, of succeeding faire
+               weather.</p>
+            <p> Before he was fully set, the <persName type="character">Phœbades</persName>(shewing
+               the custome of the Indians to adore the Sunne setting) began their obseruance with
+               the Song, to whose place, wee must referre you for the manner and words; All the time
+               they were singing; the <name ref="http://id.lincsproject.ca/occupation/performer"
+                  key="Torch Bearers" type="occupation">Torch-bearers</name> holding vp their <name
+                  type="object">Torches</name> to the <name ana="set" type="object">Sun</name>; to
+               whome the Priests themselues, and the rest, did as they sung obeisance: Which was
+               answred by other Musique and voices, at the commandement of Honor, with al
+               obseruances vs’d to the <persName
+                  ref="https://commons.cwrc.ca/reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  type="real" xml:id="persName_pvr_1rs_k1c" key="King James I">King</persName>
+               &amp;c. As in the following places. |</p>
+            <p> TO answer certaine insolent obiections made against the length of my speeches, and
+               narrations; being (for the probability of all accidents, rising from the inuention of
+               this <name type="entertainment">Maske</name>; and their aplication, to the persons,
+               and places: for whome, and by whome it was presented) not conuenient, but necessary;
+               I am enforct to affirme this; That: as there is no <name type="entertainment"
+                  >Poem</name> nor <name type="entertainment">Oration</name> so generall; but hath
+               his one perticular proposition; Nor no riuer so extrauagantly ample, but hath his
+               neuer-so-narrow fountaine, worthy to be namd; so all these courtly, and honoring
+               inuentions (hauing Poesie, and Oration in them, and a fountaine, to be exprest, from
+               whence their Riuers flow) should expressiuely-arise; out of the places, and persons
+               for; and by whome they are presented; without which limits, they are luxurious, and
+               paine. But what rules soeuer are set downe, to any Art, or Act (though, without their
+               obseruation; No Art, nor Act, is true, and worthy) yet are they nothing the more
+               followd; or those few that follow them credited. Euery vulgarly-esteemd vpstart;
+               dares breake the dreadfull dignity of antient and autenticall Poesie: and presume
+               Luciferously, to proclame in place thereof, repugnant precepts of their owne spaune.
+               Truth, and Worth, haue no faces, to enamour the Lycentious, but vaine-glory, and
+               humor. The same body: the same beauty, a thousand men seeing: Onely the man whose
+               bloud is fitted, hath that which hee calls his soule, enamourd. And this, out of
+               infallible cause; for, <span type="classical_allusion"> men vnderstand not these of
+                  Mænander –––––––––– est mor-|bus oportunitas.</span>
+            </p>
+            <p> Animæ, quod ictus, vulnus accipit graue. But the cause of all Mens being enamourd
+               with Truth. And of her slight respect, in others; is the diuine Freedom; one touching
+               with his aprehensiue finger, the other, passing. <span type="classical_allusion">The
+                  Hill of the Muses (which all men must clime in the regular way, to Truth) is said
+                  of ould, to be forcked. </span>And the two points of it, parting at the Top; are
+               Insania, and, diuinus furor. Insania, is that which euery Ranck-brainde writer; and
+               iudge of Poeticall writing, is rapt withal; when hee presumes either to write or
+               censure the height of Poesie; and that transports him with humor, vaine-glory and
+               pride, most prophane and sacrilegious: when diuinus furor; makes gentle, and noble,
+               the neuer so truly-inspired writer –––––––––– </p>
+            <p> Emollit mores nec sinit esse feros.</p>
+            <p> And the mild beames of the most holy inflamer; easely, and sweetly enter, with all
+               vnderstanding sharpenesse, the soft, and sincerely humane; but with no Time; No
+               Study; No meanes vnder heauen: any arrogant, all-occupation deuourer (that will
+               Chandler-like set vp with all wares; selling, Poesies Nectar and Ambrosia; as wel as
+               musterd, and vineagar.) The chast and restraind beames of humble truth will euer
+               enter; but onely grase, and glaunce at them: and the further fly them. | </p>
+            <p> The aplicable argument of the <name type="entertainment">Maske</name>. </p>
+            <p>
+               <persName type="character">Honor</persName>, is so much respected, and ador’d; that
+               shee hath a <name ana="set" type="object">Temple</name> erected to her, like a
+               Goddesse; a <persName type="character">Virgine Priest</persName> consecrated to her
+               (which is <persName type="character">Eunomia</persName>, or <persName
+                  type="character">Lawe</persName>; since none should dare accesse to <persName
+                  type="character">Honor</persName>, but by Vertue; of which <persName
+                  type="character">Lawe</persName> being the rule, must needes be a chiefe) and a
+                  <persName type="character">Herrald</persName> (call’d <persName type="character"
+                  >Phemis</persName>, or <persName type="character">Fame</persName>) to proclame her
+               institutions, and commandements. To amplefie yet more the diuine graces of this
+               Goddesse; <span type="classical_allusion"><persName type="character"
+                     >Plutus</persName>, (or <persName type="character">Riches</persName>) being by
+                     <persName>Aristophanes</persName>, <persName>Lucian</persName>. &amp;c.
+                  presented naturally blind, deformd, and dull witted</span>; is here by his loue of
+                  <persName type="character">Honor</persName>, made see, made sightly, made
+               ingenious; made liberall: And all this conuerted and consecrate to the most worthy
+               celebration of these sacred <eventName>Nuptialls</eventName>; all issuing (to
+               conclude the necessary application) from an honorable Temple. &amp;c.</p>
+            <p> Non est certa fides, quam non Iniuria versat.<note type="foot">
+                  <hi rend="italic"> 'there is no certain faith which injustice does not overturn';
+                     Propertius,</hi> Elegiae<hi rend="italic"> 3.8.19-20</hi></note>––––––––––
+                  Fallit<note type="foot">
+                  <hi rend="italic">fidem: 'even the harbour itself betrays its trust';
+                     Propertius,</hi> Elegiae<hi rend="italic"> 3.7.45</hi></note> portus &amp; ipse
+                  fidem<note type="foot">
+                  <hi rend="italic"> errata, listed at this point, are corrected in transcription
+                     with textual notes</hi></note>. ... sigs B1–E3</p>
+         </div>
+         <div type="castlist"><castList>
+            <head>THE NAMES OF THE SPEAKERS.</head>
+            <castItem><role>Honour</role>
+               <roleDesc>a Goddesse.</roleDesc></castItem>
+            <castItem>
+               <role>Plutus</role><roleDesc> (or Riches) a God.</roleDesc></castItem>
+            <castItem>
+               <role>Eunomia</role>
+               <roleDesc>(or law) Priest of honor.</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Phemis</role><roleDesc>, Honors Herrald. </roleDesc></castItem>
+            <castItem>
+               <role>Capriccio</role><roleDesc>, a man of wit, &amp;c.</roleDesc>
+            </castItem>
+         </castList></div>
+      </div>
+      <div type="masque">
+         <p> THE PRESENTMENT.</p>
+         <p>
+            <stage type="entrance">
+               <persName type="character">Plutus</persName> appear’d suruaying the worke with this
+               speech.</stage></p>
+         <sp>
+            <speaker><persName type="character">PLVTVS</persName></speaker>
+            <p>
+               <name type="object">ROckes</name>? Nothing but <name type="object">Rockes</name> in
+               these masking deuices? Is <persName type="character">Inuention</persName> so poore
+               shee must needes euer dwell amongst <name type="object">Rocks</name>? But it may
+               worthily haue chaunc’d (being so of-|ten presented) that their vaine Custome is now
+               become the necessarie hand of heauen, transforming into <name type="object"
+                  >Rocks</name>, some stonie hearted Ladies, courted in former <name
+                  type="entertainment">masks</name>; for whose loues, some of their repulst <name
+                  type="occupation">seruants</name> haue perisht: or perhaps some of my
+               flintie-hearted Vsurers haue beene heere metamorphosed; betwixt whom and Ladies,
+               there is resemblance enough: Ladies vsing to take interest, besides their principall,
+               as much as Vsurers. See, it is so; and now is the time of restoring them to their
+               naturall shapes: It moues, opens, excellent! This metamorphosis I intend to
+               ouer-heare. | </p>
+         </sp>
+         <stage type="entrance">
+            <p> A <name ana="set" type="object">ROCK</name>, MOOVING and breaking with a cracke
+               about <persName type="character">Capriccio</persName>, he enters with a payre of
+                  <name ana="prop" type="object">Bellows</name> on his head, a <name ana="prop"
+                  type="object">spur</name> in one hand, and a peece of <name ana="prop"
+                  type="object">golde Ore</name> in the other, &amp;c.</p>
+         </stage>
+         <stage type=" delivery">
+            <p> He speakes, vt sequitur. </p>
+         </stage>
+         <sp>
+            <speaker><persName type="character">CAPRICCIO.</persName></speaker>
+            <p>How hard this world is to a man of wit? hee must eate through manie <name
+                  type="object">Rockes</name> for his food, or fast; a restles and tormenting stone,
+               his wit is to him: <span type="classical_allusion">the very stone of
+                     <persName>Sisyphus</persName> in hell</span>; nay, the <name type="object"
+                  >Philosophers stone</name>, makes not a man more wretched: <span
+                  type="classical_allusion">A man must be a second <persName type="character"
+                     >Proteus</persName>, and turne himselfe into all shapes</span> (<span
+                  type="classical_allusion">like <persName type="character"
+                  >Vlisses</persName></span>) to winde through the straites of this pinching vale of
+               miserie; I haue turn’d my selfe into a <name type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/tailor">Tailor</name>, a Man, a
+               Gentleman, a <name type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/aristocrat">Nobleman</name>, a Worthy
+               man; but had neuer the witte to turne my selfe into an <name type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/localGovernmentOccupation"
+                  >Alder-man</name>. There are manie shapes to perish in, but one to liue in, and
+               tha’s an <name type="occupation"
+                  ref="http://id.lincsproject.ca/occupation/localGovernmentOccupation"
+                  >Aldermans</name>: |<note type="foot">tha's: <hi rend="italic">for</hi>
+                  that's</note> Tis not for a man of wit to take any rich Figure vpon him: your
+               bould, proud, ignorant, that’s braue and clinkant, that findes crownes put into his
+               shooes euery morning by the <name ana="concept" type="character">Fayries</name> and
+               will neuer tell; whose Wit is humor, whose Iudgement is fashion, whose Pride is
+               emptinesse, Birth his full man, that is in all things something, in Sum totall,
+               nothing. He shall liue in the land of Spruce, milke and hony flowing into his mouth
+               sleeping.</p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVTVS</persName>.</speaker>
+            <p> This is no transformation, but an intrusion into my <name ana="concept"
+                  type="object">golden mines</name>: I will heare him — further.</p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPRIC</persName>.</speaker>
+            <p>This breach of <name type="object">Rockes</name> I haue made, in needy pursuite of
+                  <span type="classical_allusion">the blind Deity, <name type="character"
+                     >Riches</name></span>: who is myraculously ariued here. For (according to our
+               rare men of wit) heauen standing, and earth mouing, her motion (being circular) hath
+               brought one of the most re-|<note type="foot">
+                  <hi rend="italic">start of sig B3</hi></note>mote parts of the world, to touch at
+               this all-exceeding Iland: which a man of wit would imagine must needs moue circularly
+               with the rest of the world, and so euer maintaine an equal distance. But, <name
+                  type="occupation">Poets</name> (our chiefe men of wit) answere that point
+               directly; most ingeniously affirming: That this Ile is (for the excellency of it)
+               diuided from the world (diuisus ab orbe Britannus<note type="foot">
+                  <hi rend="italic">'the Briton, divided from the world...'; Jerome,</hi>
+                     Epistulae<hi rend="italic"> 46:10</hi></note>) and that though the whole World
+               besides moues; yet this Ile stands fixt on her owne feete, and defies the Worlds
+               mutability, which this rare accident of the arriuall of <name type="character"
+                  >Riches</name>, in one of his furthest-off-scituate dominions, most
+               demonstratiuely proues.</p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVTVS</persName>.</speaker>
+            <p>This is a man of wit indeede, and knows of all our arriuals.</p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPRIC</persName>.</speaker>
+            <p>With this dull Deity <name type="character">Riches</name>, a rich Iland lying in the
+               South sea, called Pœana, (of <note type="foot"><hi rend="italic"> closing parenthesis
+                     omitted</hi></note> the Pœans (or songs) sung to the Sun, whom they | there
+               adore (being for strength and riches, called the Nauill of that South-sea) is by
+               earths round motion mou’d neere this Brittan Shore. In which Island (beeing yet in
+               command of the Virginian continent.) A troupe of the noblest Virginians inhabiting;
+               attended hether the <name type="character">God of Riches</name>, all triumphantly
+               shyning in a Mine of gould. For hearing of the most royal solemnity, of these sacred
+                  <eventName>Nuptialls</eventName>; they crost the Ocean in their honor, and are
+               here arriu’d. A poore snatch at some of the <name type="object">goulden Ore</name>,
+               that the feete of riches haue turnd vp as he trod here, my poore hand hath purchast;
+               and hope the Remainder of a greater worke, wilbe shortly extant. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>You Sir, that are miching about my goulden Mines here. </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>What, can you see Sir? you haue heretofore beene presented blinde:<span
+                  type="classical_allusion"> like your Mo-|ther <persName type="character"
+                     >Fortune</persName>;</span> and <span type="classical_allusion">your Brother
+                     <persName type="character">Loue</persName>.</span>
+            </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>But now Sir, you see I see. </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>By what good meanes, I beseech you Sir. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>That meanes, I may vouchsafe you hereafter; meane space, what are you?</p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>I am Sir a kinde of Man; A Man of wit: with whom your worship has nothing to do I
+               thinke.</p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>No Sir, nor will haue any thing to doe with him: A Man of wit? whats that? A <name
+                  type="occupation">Begger</name>.</p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>And yet no Diuell Sir. |</p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLV</persName>.</speaker>
+            <p>As I am, you meane. </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Indeede sir your Kingdome is vnder the Earth. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>That’s true, for <persName type="character">Riches</persName> is <span
+                  type="classical_allusion">the <persName type="character">Atlas</persName> that
+                  holdes it vp, it would sinke else.</span>
+            </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Tis rather a wonder, it sinks not with you Sir, y’are so sinfully, and damnably
+               heauy. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>Sinfull? and damnable? what a Puritane? These <name type="object">Bellowes</name> you
+               weare on your head, shew with what matter your braine is pufft vp Sir: A Religion-
+               forger I see you are, and presume of inspiration from these <name type="object"
+                  >Bellowes</name>; with which yee study to blow vp the setled gouernments of
+               kingdomes. |<note type="foot">
+                  <hi rend="italic"> start of sig C1</hi></note>
+            </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Your worship knockes at a wrong dore Sir, I dwell farre from the person you speak
+               of.</p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>What may you be then, beeing a man of wit? a <name type="occupation">Buffon</name>, a
+                  <name type="occupation">Iester</name>. Before I would take vpon mee the title of a
+               man of wit, and bee baffl’d by euery man of wisedome for a Buffon; I would turne
+               Banckrout, or set vp a Tobacco shop, change clokes with an <name type="occupation"
+                  >Alchemist</name>, or serue an Vsurer, bee a <name type="object">watering
+                  pot</name>
+               <note type="foot">
+                  <hi rend="italic"> erratum on sig a4 corrects to post</hi></note> for euery
+               Groome; stand the push of euery rascall wit; enter lists of iests with
+               trencher-fooles, and bee foold downe by them, or (which is worse) put them downe in
+               fooling: are these the qualities a man of wit should run proud of? </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Your worship I see has obtaind wit, with sight, which I hope yet my poor wit wil well
+               be able to answer; for touching my iesting, I | haue heard of some Courtiers, that
+               haue run themselues out of their states with Iusting; and why may not I then raise my
+               selfe in the State with iesting? An honest <name type="occupation">Shoomaker</name>,
+               (in in <note type="foot"><hi rend="italic"> dittography</hi></note> a liberall Kings
+               time) was knighted for making a cleane boote, and is it impossible, that I for
+               breaking a cleane Iest, should bee aduaunc’t in Court, or Counsaile? or at least,
+               serued out for an Ambassador to a dull Climate? Iests, and Merriments are but wild
+               weedes in a rank soile, which being well manured, yield the wholesom crop of wisdome
+               and discretion at time ath’yeare. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLV</persName>.</speaker>
+            <p>Nay, nay, I commend thy iudgement for cutting thy cote so iust to the bredth of thy
+               shoulders; he that cannot be a courser in the field, let him learne to play the
+               Iack-an-Apes in the Chamber, hee that cannot personate the wise-man well amongst
+               wisards, let him learne to play the foole well amongst dizzards. | </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Tis passing miraculous, that your dul and blind worship should so sodainly turne both
+               sightfull, and witfull. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>The Riddle of that myracle, I may chance dissolue to you in sequell; meane time, what
+               name sustain’st thou? and what toies are these thou bear’st so phantastically about
+               thee? </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>These, toies Sir, are the Ensignes that discouer my name and qualitie: my name being
+                  <persName type="character">Capriccio</persName>, and I weare these <name
+                  type="object">Bellowes</name> on my head, to shew I can puffe vp with glory all
+               those that affect mee: and besides, beare this <name type="object">spurre</name>, to
+               shew I can spur-gall, euen the best that contemne me. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>A dangerous fellowe, But what makest thou (poore man of wit) at these pompous
+                  <eventName>Nuptials</eventName>; | </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPRIC</persName>.</speaker>
+            <p>Sir, I come hether with a charge; To doe these <eventName>Nuptials</eventName>, I
+               hope, very acceptable seruice; And my charge is; A company of accomplisht <name
+                  type="occupation">Trauailers</name>; that are excellent at <name
+                  type="entertainment">Antemaskes</name>; and will tender a tast of their quallity,
+               if your worship please. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>Excellent well pleasd; of what vertue are they besides.</p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Passing graue Sir, yet exceeding acute: witty, yet not ridiculous; neuer laugh at
+               their owne iests: laborious yet not base, hauing cut out the <name type="object"
+                  >skirts</name> of the whole world, in amorous quest of your gould and siluer.</p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>They shal haue enough; cal them: I beseech thee call them: how farre hence abide
+               they? | <note type="foot">
+                  <hi rend="italic"> start of sig C3</hi></note>
+            </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Sir (being by another eminent qualitie the admired <name type="occupation"
+                  >souldiers</name> of the world) in contempt of softnes, and delicacie, they lie on
+               the naturally hard boords of that naked tree; and will your worship assure them
+               rewards fit for persons of their freight. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>Dost thou doubt my reward beeing pleased?</p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>I know Sir, a man may sooner win your reward, for pleasing you, then deseruing you.
+               But you great wise persons, haue a fetch of State; to employ with countenance, and
+               encouragement, but reward with answer <note type="foot">
+                  <hi rend="italic"> erratum on sig a4 corrects to austerity</hi></note> and
+               disgrace, saue your purposes <note type="foot">
+                  <hi rend="italic"> erratum on sig a4 corrects to purses</hi></note>, and lose your
+               honours. </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT.</persName></speaker>
+            <p>To assure thee of reward, I will now sa-|tisfie thee touching the miraculous cause,
+               both of my sight and wit, and which consequently moues mee to humanity, and bounty;
+               And all is, onely this; my late being in loue, with the louely <persName
+                  type="character">Goddesse Honor</persName>. </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPRIC</persName>.</speaker>
+            <p>If your Worshipp loue <persName type="character">Honor</persName>, indeed, Sir you
+               must needes be bountifull. But where is the rare <persName type="character"
+                  >Goddesse</persName> you speake of to be seene? </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVTVS</persName>.</speaker>
+            <p> In that Rich <name ana="set" type="object">Temple</name>, <span
+                  type="classical_allusion">where <persName type="character">Fortune</persName> fixt
+                  those her <name type="object">goulden wings</name>, thou seest; And that rowling
+                  stone she vs’d to tread vpon</span>, for signe shee would neuer for-sake this
+               Kingdome; There is ador’d, the worthy <persName type="character">Goddesse
+                  Honor</persName>. The swetnesse of whose voice, when I first heard her
+               perswasions, both to my self, and the <name type="character">Virginian Princes</name>
+               arriu’d here, to doe honor and homage, to these heauenly
+                  <eventName>Nuptialls</eventName>, so most powerfully enamour’d mee, that the fire
+               of my loue flew vp to the sight | of mine eyes: that haue lighted within mee a whole
+               firmament of Bounty, which may semingly assure the, thy reward is certaine: &amp;
+               therefore call thy accomplisht company to their <name type="entertainment"
+                  >Antemaske</name>. </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPRIC</persName>.</speaker>
+            <p>See Sir, The time, set for their apperance, being expir’d; they appeere to their
+               seruice of them-selues. </p>
+         </sp>
+         <stage type="entrance">
+            <p>Enter the <name type="character">Baboones</name> after whose dance, being Anticke,
+               and delightful, they returned to their <name ana="set" type="object">Tree</name>,
+               when <persName type="character">Plutus</persName> spake to <persName type="character"
+                  >Capriccius</persName>. </p>
+         </stage>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVTVS</persName>.</speaker>
+            <p>Gramercy now <persName type="character">Capriccio</persName>, take thy men of
+               complement, and trauaile with them to other <eventName>marriages</eventName>. My
+               Riches to thy Wit; they will get something some-where. | </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Whats this?</p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>A straine of Wit beyond a Man of Wit. I haue imployd you, and the grace of that, is
+               reward enough; hence; packe, with your complemental Fardle: The sight of an <name
+                  type="occupation">attendant</name> for reward, is abominable in the eyes of a
+               turne-seru’d <name type="occupation">Politician</name>, and I feare, will strike me
+               blinde againe. I can not abide these <name type="object">bellowes</name> of thy head,
+               they and thy men of wit haue melted my Mines with them, and consum’d me, yet take thy
+               life and be gone. <span type="classical_allusion"><persName type="character"
+                     >Neptune</persName> let thy predecessor, <persName type="character"
+                     >Vlysses</persName>, liue after all his slaine companions, but to make him die
+                  more miserably liuing; gaue him vp to ship wracks, enchantments; men of wit are
+                  but enchanted, there is no such thing as wit in this world.</span> So, take a
+               tree, inure thy souldiers to hardnes, tis honorable, though not clinkant<note
+                  type="foot">
+                  <hi rend="italic"> start of sig D1</hi></note>. | </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Can this be possible?</p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>Alas! poore man of wit, how want of reward daunts thy vertue? But because I must send
+               none away discontented, from these all-pleasing <eventName>Nuptials</eventName>; take
+               this <name type="object">wedge of golde</name>, and wedge thy selfe into the world
+               with it, renouncing that loose wit of thine, t’will spoile thy complexion. </p>
+         </sp>
+         <sp>
+            <speaker n="Capriccio"><persName type="character">CAPR</persName>.</speaker>
+            <p>Honor, and <span type="classical_allusion">all Argus eyes</span>, to Earths
+               all-commaunding Riches. <span type="classical_allusion"><persName type="character"
+                     >Pluto</persName> etiam cedit Iupiter</span>
+               <note type="foot"> Pluto etiam credit Iupiter: <hi rend="italic"> 'even Jove yields
+                     to Plutus'</hi></note>
+            </p>
+         </sp>
+         <stage type="exit">
+            <p>Exit <persName type="character">Capr</persName>. | After this lowe Induction, by
+               these succeeding degrees, the chiefe <name type="occupation">Maskers</name> were
+               aduanc’t to their discouerie</p>
+         </stage>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVTVS</persName>.</speaker>
+            <p>These humble obiects can no high eyes drawe, <note type="marginal" rend="left">
+                  <persName type="character">Plutus</persName>, cals to <persName type="character"
+                     >Eunomia</persName>.</note>
+               <persName type="character">Eunomia</persName>? (or the sacred power of Lawe)Daughter
+               of <persName type="character">Ioue</persName>, and <persName type="character"
+                  >Goddesse Honors Priest</persName>; Appeare to <persName type="character"
+                  >Plutus</persName>, and his loue assist. <note type="marginal" rend="left">
+                  <persName type="character">Eunomia</persName> in the <name ana="set" type="object"
+                     >Temple gates</name>.</note>
+            </p>
+         </sp>
+         <sp>
+            <speaker n="Eunomia"><persName type="character">EVN</persName>.</speaker>
+            <p>What would the <persName type="character">god of Riches</persName>? </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>Ioine with <persName type="character">Honor</persName>: In purpos’d grace of these
+               great <eventName>Nuptials</eventName>; And since to <persName type="character"
+                  >Honor</persName> none should dare accesse, But helpt by vertues hand (thy selfe,
+               chaste <persName type="character">Loue</persName> Being <persName type="character">Vertues</persName>
+               Rule, and her directfull light) Help me to th’honor of her speech and sight.</p>
+         </sp>
+         <sp>
+            <speaker n="Eunomia"><persName type="character">EVN</persName>.</speaker>
+            <p>Thy will shal straight be honour’d; all that seek Accesse to <persName type="character"
+                  >Honor</persName>, by cleer virtues beame, Her grace preuents their pains, and comes
+               to them. | </p>
+         </sp>
+         <stage type="entrance">
+            <p>Loud Musick, and <persName type="character">Honor</persName> appears, descending with her
+                  <name type="occupation">Herrald</name>
+               <persName type="character">Phemis</persName>, and <persName type="character">Eunomia</persName> (her
+                  <name type="occupation">Priest</name>) before her. The Musique ceasing <persName
+                  type="character">Plutus</persName> spake.</p>
+         </stage>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>Crowne of all merit, <persName type="character">Goddess</persName>, and my Loue; Tis now high
+               time, that th’end for which we come Should be endeuor’d in our vtmost right, Done to
+               the sweetnes of this <eventName>Nuptiall night</eventName>. </p>
+         </sp>
+         <sp>
+            <speaker n="Honour"><persName type="character">HON</persName>.</speaker>
+            <p>
+               <persName type="character">Plutus</persName>? The <persName type="character">Princes of the
+                  Virgine land</persName>, Whom I made crosse the Britan Ocean To this most famed Ile,
+               of all the world, To do due homage to the sacred <eventName>Nuptials</eventName> Of
+                  <persName type="character">Lawe</persName>, and <persName type="character">Vertue</persName>
+               <note type="foot">
+                  <hi rend="italic"> erratum on sig a4 corrects to loue and beauty</hi></note>,
+               celebrated here, By this Howre of the holy Eeuen I know, Are ready to performe the
+               rites they owe To setting <persName type="character">Phœbus</persName>; which (for greater
+               State To their apparance) their first act aduances. And with <name
+                  type="entertainment">songs</name> Vshers their succeeding <name
+                  type="entertainment">dances</name>, <persName type="character">Herrald</persName>! giue
+               summons to the <name type="occupation">Virgine Knights</name>, No longer to delay
+               their purpos’d Rites. </p>
+         </sp>
+         <sp>
+            <speaker n="Phemis"><persName type="character">HER</persName>.</speaker>
+            <p>
+               <name type="occupation">Knights of the Virgine Land</name>, whom bewties lights Would
+               glorifie with their inflaming sights; Keep now obscur’d no more your faire intent, |
+               To adde your Beames to this nights ornament, The golden-winged Howre strikes now a
+               Plaine, And calls out all the pompe ye entertaine; The Princely <persName
+                  ref="https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                  type="real" xml:id="persName_svr_1rs_k1c" key="Prince Frederick V">Bride-groome</persName>, and the
+                  <persName ref="https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                  type="real" xml:id="persName_tvr_1rs_k1c" key="Princess Elizabeth Stuart">Brides</persName> bright eyes, Sparkle
+               with grace to your discoueries. </p>
+         </sp>
+         <stage type="entrance">
+            <p>At these words, the <persName type="character">Phœbades</persName> (or <persName type="character"
+                  >Priests of the Sunne</persName>) appear’d first with sixe <name ana="instrument"
+                  type="object">Lutes</name>, and sixe voices, and sung to the opening of the Mine
+               and <name subtype="performer" type="occupation">Maskers</name> discouery, this
+                  sul<note type="foot">
+                  <hi rend="italic"> for</hi> full<hi rend="italic">(?)</hi></note>
+               <name type="entertainment">Song</name>.</p>
+         </stage>
+         <ab>
+            <title>The first <name type="entertainment">Song</name>.</title>
+            <lg type="song">
+               <l>OPe Earth thy wombe of golde,</l>
+               <l>Shew Heauen thy cope of starres.</l>
+               <l> All glad Aspects vnfolde,</l>
+               <l> Shine out, and cleere our Cares:</l>
+               <l>Kisse Heauen and Earth, and so combine</l>
+               <l> In all mixt ioy our <eventName>Nuptiall</eventName> Twine.</l>
+            </lg>
+         </ab>
+         <stage type="setting">
+            <p>This <name type="entertainment">Song</name> ended, a Mount opened, and spred like a
+               Skie, in which appear’d a Sunne setting; beneath which, sate the twelue <name
+                  subtype="performer" type="occupation">Maskers</name>, in a Mine of golde; twelue
+                  <name subtype="theatreWork" type="occupation">Torch-bearers</name> holding their
+                  <name type="object">torches</name> before them, after which <persName type="character"
+                  >Honor</persName>, &amp; c. </p>
+         </stage>
+         <sp>
+            <speaker n="Honour"><persName type="character">HON</persName>.</speaker>
+            <p>Se now the setting <persName type="character">Sun</persName>, casts vp his bank, And showes
+               his bright head at his Seas repaire, For signe that all daies future shall be faire.
+                  |<note type="foot">
+                  <hi rend="italic"> start of sig D3</hi></note>
+            </p>
+         </sp>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>May he that rules the nightes &amp; dayes confirme it. </p>
+         </sp>
+         <sp>
+            <speaker n="Honour"><persName type="character">HON</persName>.</speaker>
+            <p><span type="classical_allusion">Behold the <persName type="character">Sunnes<note>Apollo?</note></persName> faire <name
+                  type="occupation">Preists</name> the <persName type="character"
+                     >Phæbades<note>priestesses of Apollo (Phoebus)</note></persName></span>, Their euening
+               seruice in an <name type="entertainment">Hymne</name> addresse To <persName
+                  type="character">Phœbus</persName> setting; which we now shall heare, And see the
+               formes of their deuotions there. </p>
+         </sp>
+         <stage type="entrance">
+            <p>The <persName type="character">Phœbades</persName> sing the first Stance of the second <name
+                  type="entertainment">song</name>, vt sequitur.</p>
+         </stage>
+         <ab>
+            <title>One alone. 1.</title>
+            <lg type="song">
+               <l>Descend (faire <persName type="character">Sun</persName>) and sweetly rest,</l>
+               <l> <span type="classical_allusion">In <persName type="character">Tethis<note>Tethys, Titaness wife of
+                     Oceanus?</note></persName> Cristal armes, thy toyle,</span></l>
+               <l> Fall burning on her Marble brest,</l>
+               <l> And make with <persName type="character">Loue</persName> her billowes boyle.</l>
+            </lg>
+         </ab>
+         <ab>
+            <title>Another alone. 2.</title>
+            <lg type="song">
+               <l>Blow blow, sweet windes, O blow away,</l>
+               <l> Al vapours from the fined ayre:</l>
+               <l>That to this <note type="foot">
+                     <hi rend="italic"> erratum on sig a4 corrects to his</hi></note> golden head no
+                  Ray,</l>
+               <l> May languish with the least empaire.</l>
+            </lg>
+         </ab>
+         <sp>
+            <speaker n="Choir"><persName type="character">CHO</persName>.</speaker>
+            <p>Dance <persName type="character">Tethis</persName>, and thy loues red beames, Embrace with
+               Ioy he now discends: | Burnes burnes with loue to drinke thy streames, and on him
+               endles youth attends. </p>
+         </sp>
+         <stage type="entrance">
+            <p>After this Stance, <persName type="character">Honor</persName> &amp;c. </p>
+         </stage>
+         <sp>
+            <speaker n="Honour"><persName type="character">HON</persName>.</speaker>
+            <p>This superstitious <name type="entertainment">Hymne</name>, sung to the <persName
+                  type="character">Sunne</persName>, Let vs encounter with fit duties done To our cleere
+                  <persName type="character">Phœbus</persName>; whose true piety, Enioyes from heauen an
+               earthly deity. </p>
+         </sp>
+         <stage type="entrance">
+            <p>Other Musique, and voyces; and this second Stance was sung, directing their
+               obseruance to the <persName
+                  ref="https://commons.cwrc.ca/reed:949cf318-a2d8-4449-8df0-191275cbb541"
+                  type="real" xml:id="persName_uvr_1rs_k1c" key="King James I">King</persName>.</p>
+         </stage>
+         <ab>
+            <title>One alone 1.</title>
+            <lg type="song">
+               <l>Rise, rise O <persName type="character">Phœbus</persName>, euer rise,</l>
+               <l> descend not to th’inconstant streame,</l>
+               <l> But grace with endles light, our skyes,</l>
+               <l> to thee that Sun is but a beame.</l>
+            </lg>
+         </ab>
+         <ab>
+            <title>Another 2.</title>
+            <lg type="song">
+               <l>Dance Ladies in our Sunnes bright rayes,</l>
+               <l> in which the <persName
+                     ref="https://commons.cwrc.ca/reed:d0db3261-3dd1-4edb-b9a3-16759d7b6696"
+                     type="real" xml:id="persName_vvr_1rs_k1c" key="Princess Elizabeth Stuart">Bride</persName> and <persName
+                     ref="https://commons.cwrc.ca/reed:835bd31f-f4b6-42b3-91b3-4338f67cce2a"
+                     type="real" xml:id="persName_wvr_1rs_k1c" key="Prince Frederick V">Bridegroome</persName> shine:</l>
+               <l> Cleere sable night with your eyes dayes,</l>
+               <l> and <span type="classical_allusion">set firme lights on <persName type="character">Hymen<note>Greek god of
+                        marriage</note></persName>s shrine.</span></l>
+            </lg>
+         </ab>
+         <sp>
+            <speaker n="Choir"><persName type="character">CHO</persName>.</speaker>
+            <p>O may our <persName type="character">Sun</persName> not set before, he sees his endles seed
+               arise: And deck his triple crowned shore, with springs of humane Deities. | </p>
+         </sp>
+         <stage type="entrance">
+            <p>This ended the <persName type="character">Phœbades</persName> sung the third Stance.</p>
+         </stage>
+         <ab>
+            <title>1.</title>
+            <lg type="song">
+               <l>Set Set (great <persName type="character">Sun</persName>) our rising loue</l>
+               <l> shall euer celebrate thy grace:</l>
+               <l> <span type="classical_allusion">Whom entring the high court of <name type="character">Ioue<note>Jove =
+                        Zeus</note></name>,</span></l>
+               <l> each God greetes rising from his place.</l>
+            </lg>
+         </ab>
+         <ab>
+            <title>2.</title>
+            <lg type="song">
+               <l>When <span type="classical_allusion">thow thy siluer <name type="object">bow</name> dost bend,</span></l>
+               <l> all start aside and dread thy draughtes:</l>
+               <l> How can we thee enough commend,</l>
+               <l> commanding all worlds with thy <name type="object">shafts</name>?</l>
+            </lg>
+         </ab>
+         <sp>
+            <speaker n="CHO"><persName type="character">CHO</persName>.</speaker>
+            <p><span type="classical_allusion">Blest was thy mother bearing thee, and <persName type="character">Phœbe</persName> that
+               delights in darts: Thou artful Songes dost set; and shee winds <name type="object"
+                  >horns</name>, loues hounds, &amp; high pallmd harts</span> </p>
+         </sp>
+         <stage type="entrance">
+            <p>After this <persName type="character">Honor</persName>.</p>
+         </stage>
+         <sp>
+            <speaker n="Honour"><persName type="character">HON</persName>. </speaker>
+            <p>Againe our Musique and conclude this Song, To him, to whom all <persName type="character"
+                  >Phœbus</persName> beames belong: </p>
+         </sp>
+         <stage type="entrance">
+            <p>The other voyces sung to other Musike the third stance.</p>
+         </stage>
+         <ab>
+            <title>1.</title>
+            <lg type="song">
+               <l>Rise stil (cleere <name type="character">Sun</name>) and neuer set,</l>
+               <l> but be to Earth her only light:</l>
+               <l> All other <name type="occupation">Kings</name> in thy beames met,</l>
+               <l> are cloudes and darke effects of night.| </l>
+            </lg>
+         </ab>
+         <ab>
+            <title> 2.</title>
+            <lg type="song">
+               <l> As when the Rosie Morne doth rise,</l>
+               <l> Like Mists, all giue thy wisedome waie;</l>
+               <l> A learned <name type="occupation">King</name>, is, as in skies,</l>
+               <l> To poore dimme stars, the flaming day. </l>
+            </lg>
+         </ab>
+         <sp>
+            <speaker n="CHO"><persName type="character">CHO</persName>. </speaker>
+            <p>Blest was thy Mother, bearing Thee, Thee only Relick of her Race, Made by thy vertues
+               beames a Tree, Whose armes shall all the Earth embrace.</p>
+         </sp>
+         <stage type="entrance">
+            <p>This done <persName type="character">Eunomia</persName> spake to the Maskers set yet aboue.
+            </p>
+         </stage>
+         <sp>
+            <speaker n="Eunomia"><persName type="character">EVN</persName>.</speaker>
+            <p><persName type="character">Virginian Princes</persName>, ye must now renounce Your
+               superstitious worship of these <persName type="character">Sunnes</persName>, Subiect to
+               cloudy darknings and descents, And of your sweet <note type="foot"><hi rend="italic">
+                     erratum on sig a4 corrects to</hi> fit</note> deuotions, turne the euents To
+               this our <persName type="character" key="King James I" ref="https://cwrc.ca/islandora/object/reed%3A949cf318-a2d8-4449-8df0-191275cbb541">Britan Phœbus<note>King James I?</note></persName>, whose
+               bright skie (Enlightned with a Christian Piety) Is neuer subiect to black Errors
+               night, And hath already offer’d heauens true light, To your darke Region, which
+               acknowledge now; Descend, and to him all your homage vow. |<note type="foot">
+                  <hi rend="italic"> start of sig E1</hi></note>
+            </p>
+         </sp>
+         <stage type="exit">
+            <p>With this the <name subtype="theatreWork" type="occupation">Torch-bearers</name>
+               descended, and performed another <name type="entertainment">Antemaske</name>, dancing
+               with <name ana="prop" type="object">Torches</name> lighted at both ends; which done,
+               the <name subtype="performer" type="occupation">Maskers</name> descended, and fell
+               into their <name type="entertainment">dances</name>, two of which being past, and
+               others with the Ladies. </p>
+         </stage>
+         <ab>
+            <title><persName type="character">Honor</persName> spake.</title>
+            <lg type="song">
+               <l>Musique! your voyces, now tune sweet and hie,</l>
+               <l>And singe the <eventName>Nuptiall</eventName>
+                  <name type="entertainment">Hymn</name> of <persName type="character">Loue</persName>, and
+                     <persName type="character">Beauty</persName>.</l>
+               <l> Twinns, as of one age, so to one desire</l>
+               <l> May both their bloods giue, an vnparted fire.</l>
+               <l> And as those twinns that <persName type="character">Fame</persName> giues all her
+                  prise,</l>
+               <l> Combind their lifes power in such Symphathies;</l>
+               <l> That one being merry; mirth the other grac’t:</l>
+               <l> If one felt sorrow, th’other griefe embrac’t.</l>
+               <l> If one were healthfull; Health the other pleasd: If one were sicke: the other was
+                  diseasd;</l>
+               <l> And all waies ioynd in such a constant troth</l>
+               <l> That one like cause had like effect in both,</l>
+               <l> So may these <eventName>Nuptiall Twynnes</eventName>, their whole liues
+                  store,</l>
+               <l> Spend in such euen parts, neuer grieuing more,</l>
+               <l> Then may the more set off their ioyes diuine;</l>
+               <l> As after clouds, the <persName type="character">Sunne</persName>, doth clerest shine.
+                  |</l>
+            </lg>
+         </ab>
+         <stage type="delivery"> This sayd, this <name type="entertainment">Song of <persName type="character">Loue</persName> , and
+            <name type="character">Bewty</name></name> was sung; single.</stage>
+         <ab>
+            <lg type="song">
+               <l><span type="classical_allusion">Bright <persName type="character">Panthæa</persName> borne to <persName type="character"
+                     >Pan</persName>,</span></l>
+               <l> Of the Noblest Race of Man,</l>
+               <l> <span type="classical_allusion">Her white hand to <persName type="character">Eros</persName> giuing,</span></l>
+               <l> With a kisse, ioin’d Heauen to Earth</l>
+               <l> And begot so faire a birth, As yet neuer grac’t the liuing.</l>
+            </lg>
+         </ab>
+         <sp>
+            <speaker n="CHO"><persName type="character">CHO</persName>.</speaker>
+            <p>A Twinne that all worlds did adorne, For so were <persName type="character">Loue</persName>
+               and <persName type="character">Bewty</persName> borne.</p>
+         </sp>
+         <ab>
+            <title>2.</title>
+            <lg type="song">
+               <l>Both so lou’d, they did contend</l>
+               <l> Which the other should transcend,</l>
+               <l> Doing either, grace, and kindnés;</l>
+               <l>
+                  <persName type="character">Loue</persName> from <persName type="character">Bewty</persName> did
+                  remoue,</l>
+               <l> Lightnes call’d her staine in loue,</l>
+               <l>
+                  <persName type="character">Bewtie</persName> took from <persName type="character">Loue</persName>
+                  his blindness.</l>
+            </lg> | </ab>
+         <sp>
+            <speaker n="CHO"><persName type="character">CHO</persName>.</speaker>
+            <p><persName type="character">Loue</persName> sparks made flames in <persName type="character"
+                  >Bewties</persName> skie, And <persName type="character">Bewtie</persName> blew vp <persName
+                  type="character">Loue</persName> as hie. </p>
+         </sp>
+         <ab>
+            <title>3.</title>
+            <lg type="song">
+               <l><persName type="character">Virtue</persName> then commixt her fire;</l>
+               <l> To which Bountie did aspire,</l>
+               <l> Innocence a Crowne conferring;</l>
+               <l> Mine, and Thine, were then vnusde,</l>
+               <l> All things common: Nought abusde,</l>
+               <l> Freely earth her frutage bearing.</l>
+            </lg>
+         </ab>
+         <sp>
+            <speaker n="CHO"><persName type="character">CHO</persName>.</speaker>
+            <p>Nought then was car’d for, that could fade, And thus the golden world was made.</p>
+         </sp>
+         <stage type="exit">
+            <p>This sung, the <name subtype="performer" type="occupation">Maskers</name> danc’t
+               againe with the Ladies, after which <persName type="character">Honor</persName>.</p>
+         </stage>
+         <sp>
+            <speaker n="Honour"><persName type="character">HON</persName>. </speaker>
+            <p>Now may the blessings of the golden age, Swimme in these
+                  <eventName>Nuptials</eventName>, euen to holy rage, A <name type="entertainment"
+                  >Hymn</name> to <persName type="character">Sleep</persName> prefer, and all the ioyes That
+               in his Empire are of dearest choice, | Betwixt his golden slumbers euer flow, In
+               these; And Theirs, in Springs as endless growe. </p>
+         </sp>
+         <stage type="entrance">
+            <p>This sayd, the last Song was sung full. </p>
+         </stage>
+         <ab>
+            <title>The last Song.</title>
+            <lg type="song">
+               <l>Now sleepe, binde fast, the flood of Ayre,</l>
+               <l> strike all things dumb and deafe,</l>
+               <l> And, to disturbbe our <eventName>Nuptiall paire</eventName>,</l>
+               <l>Let stir no Aspen leafe.</l>
+               <l> Send flocks of golden Dreames</l>
+               <l> That all true ioyes presage,</l>
+               <l> Bring, in thy oyly streames,</l>
+               <l> The milke and hony Age.</l>
+               <l>Now close the world-round sphere of blisse,</l>
+               <l> And fill it with a heauenly kisse.</l>
+            </lg>
+         </ab>
+         <stage type="entrance">
+            <p>After this <persName type="character">Plutus</persName> to the <name subtype="performer"
+                  type="occupation">Maskers</name>.</p>
+         </stage>
+         <sp>
+            <speaker n="Plutus"><persName type="character">PLVT</persName>.</speaker>
+            <p>Come <persName type="character">Virgine Knights</persName>, the homage ye haue done, To <persName
+                  type="character">Loue</persName> and <persName type="character">Bewty</persName>, and our
+               <persName type="character" ref="https://cwrc.ca/islandora/object/reed%3A949cf318-a2d8-4449-8df0-191275cbb541" key="King James I">Britan Sun</persName>, Kinde <persName type="character"
+                  >Honor</persName>, will requite with holy feasts In her faire Temple; and her loued
+               Guests, Giues mee the grace t’inuite, when she and I (<persName type="character"
+                  >Honor</persName> and <persName type="character">Riches</persName>) will eternally |<note
+                  type="foot"><hi rend="italic"> start of sig E3</hi></note> A league in fauour of
+               this night combine, In which Loues second hallowed Tapers shine; Whose Ioies, may
+               Heauen &amp; Earth as highly please <span type="classical_allusion">As those two nights that got great <persName
+                  type="character">Hercules</persName>.</span> </p>
+         </sp>
+         <stage type="exit">
+            <p>The speech ended; they concluded with a dance, that brought them off; <persName
+                  type="character">Plutus</persName>, with <persName type="character">Honor</persName> and the
+               rest conducting them vp to the <name type="object" subtype="set">Temple of
+                  Honor</name>.</p>
+         </stage>
+         <p>FINIS.</p>
+      </div>
+      
+
+
+
+</body>
+   </text>
+</TEI>
