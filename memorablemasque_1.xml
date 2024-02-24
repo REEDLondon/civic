@@ -1752,8 +1752,10 @@
 
          <div type="index">
             <list>
-               <head>Classical Allusions</head>
-               <item>Apollo<list>
+               <item>
+               <list>
+                  <head>Classical Allusions</head>
+                  <item>Apollo<list>
                      <item><ref target="#span_ojr_n55_n1c #span_imr_n55_n1c">Phoebades</ref></item>
                      <item><ref target="#span_ivr_n55_n1c #span_kwr_n55_n1c #span_owr_n55_n1c"
                            >Apollo</ref></item>
@@ -1778,7 +1780,7 @@
                <item><ref target="#span_s4r_n55_n1c">Proteus</ref></item>
                <item><ref target="#span_p4r_n55_n1c">Sisyphus</ref></item>
                <item><ref target="#span_rvr_n55_n1c">Tethys</ref></item>
-               <item><ref target="#span_u4r_n55_n1c #span_qsr_n55_n1c">Ulysses</ref></item>
+               <item><ref target="#span_u4r_n55_n1c #span_qsr_n55_n1c">Ulysses</ref></item></list></item>
             </list>
          </div>
 
