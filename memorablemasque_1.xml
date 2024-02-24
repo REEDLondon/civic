@@ -337,18 +337,19 @@
 
    <text ana="taxon:masque" type="record" xml:id="abcde">
 
-      <body><div type="front_matter">
+      <body>
          <head>
             <date when-iso="1613">1613</date>
          </head>
-
          <head>
             <supplied>Masque of the Middle Temple and Lincoln's Inn alias The Memorable
                Masque</supplied>
          </head>
          <pb type="sheet"/>
+         
 
          <div type="letter" xml:id="intro_letter">
+            <head>Author's Note</head>
             <p> TO THE MOST NOble, and constant Combiner of Honor, and Vertue, <persName
                   ref="https://commons.cwrc.ca/reed:138c6fc5-82df-4467-b328-3869188e602e"
                   type="real" xml:id="persName_fvr_1rs_k1c" key="Edward Phelips">Sir EDWARD
@@ -395,6 +396,7 @@
                   >GEO. CHAPMAN.</persName> | </ab>
          </div>
          <div type="performance">
+            <head>Performance Description</head>
             <p xml:id="masque_title">
                <title key="Memorable Masque" ref="https://www.wikidata.org/wiki/Q7750957">THE MASKE
                   OF THE Gentlemen of the two combin’d houses, or <orgName
@@ -570,6 +572,7 @@
                ascended vnseene to their scœne. Then for the works.</p>
          </div>
          <div type="set">
+            <head>Set Description</head>
             <p> First there appear’d at the lower end of the | Hall, an <name ana="set"
                   type="object">Artificiall Rock</name>, whose top was neere as high as the hall it
                selfe. This Rock, was in the vndermost part craggy, and full of hollow places, in
@@ -738,8 +741,9 @@
                <role>Capriccio</role><roleDesc>, a man of wit, &amp;c.</roleDesc>
             </castItem>
          </castList></div>
-      </div>
+      
       <div type="masque">
+         <head>Masque Text</head>
          <p> THE PRESENTMENT.</p>
          <p>
             <stage type="entrance">
