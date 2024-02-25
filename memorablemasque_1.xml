@@ -1846,23 +1846,24 @@
                      <item><ref target="#span_u4r_n55_n1c #span_qsr_n55_n1c">Ulysses</ref></item>
                   </list></item>
                <item>
-                  <list>
-                     <head>Contemporary References</head>
-                     <item><ref target="#persName_hvr_1rs_k1c #persName_lvr_1rs_k1c #persName_tvr_1rs_k1c #persName_vvr_1rs_k1c 
+                     <ref
+                           target="#persName_hvr_1rs_k1c #persName_lvr_1rs_k1c #persName_tvr_1rs_k1c #persName_vvr_1rs_k1c 
                         #persName_mvr_1rs_k1c #persName_svr_1rs_k1c #persName_wvr_1rs_k1c #persName_ivr_1rs_k1c #persName_gvr_1rs_k1c 
                         #persName_kvr_1rs_k1c #persName_nvr_1rs_k1c #persName_ovr_1rs_k1c #persName_pvr_1rs_k1c #persName_uvr_1rs_k1c 
-                        #persName_cxr_1rs_k1c #persName_zyr_1rs_k1c #persName_fvr_1rs_k1c #persName_jvr_1rs_k1c #name_y4r_n55_n1c 
+                        #persName_cxr_n55_n1c #persName_zyr_n55_n1c #persName_fvr_1rs_k1c #persName_jvr_1rs_k1c #name_y4r_n55_n1c 
                         #name_t3r_n55_n1c #name_llr_n55_n1c #name_q3r_n55_n1c #name_x3r_n55_n1c #orgName_upk_241_41c 
                         #orgName_vpk_241_41c #orgName_gnf_mr1_41c #orgName_xpk_241_41c #orgName_wpk_241_41c #eventName_s3r_n55_n1c 
                         #eventName_bjr_n55_n1c #eventName_wnr_n55_n1c #eventName_npr_n55_n1c #eventName_crr_n55_n1c 
                         #eventName_err_n55_n1c #eventName_bsr_n55_n1c #eventName_oxr_n55_n1c #eventName_vsr_n55_n1c 
                         #eventName_e5r_n55_n1c #eventName_i5r_n55_n1c #eventName_jxr_n55_n1c #eventName_pyr_n55_n1c 
-                        #eventName_syr_n55_n1c">Contemporary References</ref><list>
+                        #eventName_syr_n55_n1c">Contemporary
+                           References</ref><list>
+                              <head>Contemporary References</head>
                            <item><ref
                                  target="#persName_hvr_1rs_k1c #persName_lvr_1rs_k1c #persName_tvr_1rs_k1c #persName_vvr_1rs_k1c 
                            #persName_mvr_1rs_k1c #persName_svr_1rs_k1c #persName_wvr_1rs_k1c #persName_ivr_1rs_k1c #persName_gvr_1rs_k1c 
                            #persName_kvr_1rs_k1c #persName_nvr_1rs_k1c #persName_ovr_1rs_k1c #persName_pvr_1rs_k1c #persName_uvr_1rs_k1c 
-                           #persName_cxr_1rs_k1c #persName_zyr_1rs_k1c #persName_fvr_1rs_k1c #persName_jvr_1rs_k1c"
+                           #persName_cxr_n55_n1c #persName_zyr_n55_n1c #persName_fvr_1rs_k1c #persName_jvr_1rs_k1c"
                                  >People</ref><list>
                                  <item><ref
                                        target="#persName_hvr_1rs_k1c #persName_lvr_1rs_k1c #persName_tvr_1rs_k1c #persName_vvr_1rs_k1c"
@@ -1878,16 +1879,18 @@
                                  <item><ref target="#persName_fvr_1rs_k1c #persName_jvr_1rs_k1c"
                                        >Phelips, Edward</ref></item>
                               </list></item>
-                        <item><ref target="#name_y4r_n55_n1c #name_t3r_n55_n1c #name_llr_n55_n1c #name_q3r_n55_n1c #name_x3r_n55_n1c">Occupations</ref><list>
-                           <item><ref target="#name_y4r_n55_n1c">Aldermen</ref></item>
-                           <item><ref target="#name_t3r_n55_n1c">Attorney General</ref></item>
-                           <item><ref target="#name_llr_n55_n1c">Lords of the Privy
+                           <item><ref
+                                 target="#name_y4r_n55_n1c #name_t3r_n55_n1c #name_llr_n55_n1c #name_q3r_n55_n1c #name_x3r_n55_n1c"
+                                 >Occupations</ref><list>
+                                 <item><ref target="#name_y4r_n55_n1c">Aldermen</ref></item>
+                                 <item><ref target="#name_t3r_n55_n1c">Attorney General</ref></item>
+                                 <item><ref target="#name_llr_n55_n1c">Lords of the Privy
                                        Council</ref></item>
-                           <item><ref target="#name_q3r_n55_n1c #name_x3r_n55_n1c">Master of
+                                 <item><ref target="#name_q3r_n55_n1c #name_x3r_n55_n1c">Master of
                                        the Rolls</ref></item>
                               </list></item>
                            <item><ref
-                              target="#orgName_upk_241_41c #orgName_vpk_241_41c #orgName_gnf_mr1_41c #orgName_xpk_241_41c #orgName_wpk_241_41c"
+                                 target="#orgName_upk_241_41c #orgName_vpk_241_41c #orgName_gnf_mr1_41c #orgName_xpk_241_41c #orgName_wpk_241_41c"
                                  >Inns of Court</ref><list>
                                  <item><ref target="#orgName_xpk_241_41c">Lincoln's Inn</ref></item>
                                  <item><ref target="#orgName_wpk_241_41c">Middle Temple</ref></item>
@@ -1895,8 +1898,7 @@
                            <item><ref
                                  target="#eventName_s3r_n55_n1c #eventName_bjr_n55_n1c #eventName_wnr_n55_n1c #eventName_npr_n55_n1c #eventName_crr_n55_n1c #eventName_err_n55_n1c #eventName_bsr_n55_n1c #eventName_oxr_n55_n1c #eventName_vsr_n55_n1c #eventName_e5r_n55_n1c #eventName_i5r_n55_n1c #eventName_jxr_n55_n1c #eventName_pyr_n55_n1c #eventName_syr_n55_n1c"
                                  >Wedding References</ref></item>
-                        </list></item>
-                  </list>
+                        </list>
                </item>
             </list>
          </div>
