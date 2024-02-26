@@ -1859,12 +1859,7 @@
                         #eventName_syr_n55_n1c">Contemporary
                            References</ref><list>
                               <head>Contemporary References</head>
-                           <item><ref
-                                 target="#persName_hvr_1rs_k1c #persName_lvr_1rs_k1c #persName_tvr_1rs_k1c #persName_vvr_1rs_k1c 
-                           #persName_mvr_1rs_k1c #persName_svr_1rs_k1c #persName_wvr_1rs_k1c #persName_ivr_1rs_k1c #persName_gvr_1rs_k1c 
-                           #persName_kvr_1rs_k1c #persName_nvr_1rs_k1c #persName_ovr_1rs_k1c #persName_pvr_1rs_k1c #persName_uvr_1rs_k1c 
-                           #persName_cxr_n55_n1c #persName_zyr_n55_n1c #persName_fvr_1rs_k1c #persName_jvr_1rs_k1c"
-                                 >People</ref><list>
+                          
                                  <item><ref
                                        target="#persName_hvr_1rs_k1c #persName_lvr_1rs_k1c #persName_tvr_1rs_k1c #persName_vvr_1rs_k1c"
                                        >Elizabeth Stuart</ref></item>
@@ -1874,31 +1869,35 @@
                                  <item><ref target="#persName_ivr_1rs_k1c">Hubbard,
                                     Henry</ref></item>
                                  <item><ref
-                                       target="#persName_gvr_1rs_k1c #persName_kvr_1rs_k1c #persName_nvr_1rs_k1c #persName_ovr_1rs_k1c #persName_pvr_1rs_k1c #persName_uvr_1rs_k1c #persName_cxr_1rs_k1c #persName_zyr_1rs_k1c"
+                                    target="#persName_gvr_1rs_k1c #persName_kvr_1rs_k1c #persName_nvr_1rs_k1c #persName_ovr_1rs_k1c #persName_pvr_1rs_k1c #persName_uvr_1rs_k1c #persName_cxr_n55_n1c #persName_zyr_n55_n1c"
                                        >James I</ref></item>
                                  <item><ref target="#persName_fvr_1rs_k1c #persName_jvr_1rs_k1c"
                                        >Phelips, Edward</ref></item>
-                              </list></item>
+                              
                            <item><ref
                                  target="#name_y4r_n55_n1c #name_t3r_n55_n1c #name_llr_n55_n1c #name_q3r_n55_n1c #name_x3r_n55_n1c"
-                                 >Occupations</ref><list>
-                                 <item><ref target="#name_y4r_n55_n1c">Aldermen</ref></item>
-                                 <item><ref target="#name_t3r_n55_n1c">Attorney General</ref></item>
-                                 <item><ref target="#name_llr_n55_n1c">Lords of the Privy
-                                       Council</ref></item>
-                                 <item><ref target="#name_q3r_n55_n1c #name_x3r_n55_n1c">Master of
-                                       the Rolls</ref></item>
-                              </list></item>
+                                 >Government Occupations</ref></item>
                            <item><ref
                                  target="#orgName_upk_241_41c #orgName_vpk_241_41c #orgName_gnf_mr1_41c #orgName_xpk_241_41c #orgName_wpk_241_41c"
-                                 >Inns of Court</ref><list>
-                                 <item><ref target="#orgName_xpk_241_41c">Lincoln's Inn</ref></item>
-                                 <item><ref target="#orgName_wpk_241_41c">Middle Temple</ref></item>
-                              </list></item>
+                                 >Inns of Court</ref></item>
                            <item><ref
                                  target="#eventName_s3r_n55_n1c #eventName_bjr_n55_n1c #eventName_wnr_n55_n1c #eventName_npr_n55_n1c #eventName_crr_n55_n1c #eventName_err_n55_n1c #eventName_bsr_n55_n1c #eventName_oxr_n55_n1c #eventName_vsr_n55_n1c #eventName_e5r_n55_n1c #eventName_i5r_n55_n1c #eventName_jxr_n55_n1c #eventName_pyr_n55_n1c #eventName_syr_n55_n1c"
-                                 >Wedding References</ref></item>
+                                 >Wedding of Princess Elizabeth and Prince Frederick</ref></item>
                         </list>
+               </item>
+               <item><ref>Dramaturgy Descriptions</ref>
+                  <list>
+                     <item><ref target="#p_zpk_241_41c #p_tqk_241_41c #p_wsk_241_41c">Baboon Antimaske</ref></item>
+                     <item><ref target="#p_jqk_241_41c #p_vqk_241_41c #p_jrk_241_41c #p_csk_241_41c #p_jsk_241_41c #p_dtk_241_41c">Capriccio</ref></item>
+                     <item><ref target="#p_kqk_241_41c #p_erk_241_41c #p_etk_241_41c">Eunomia</ref></item>
+                     <item><ref target="#p_nqk_241_41c #p_erk_241_41c #p_itk_241_41c #p_o5k_241_41c">Honour</ref></item>
+                     <item><ref target="#p_zpk_241_41c #p_bqk_241_41c #p_cqk_241_41c #p_dtk_241_41c #p_ntk_241_41c #p_d5k_241_41c #p_f5k_241_41c">Maskers</ref></item>
+                     <item><ref target="#p_kqk_241_41c #p_mqk_241_41c #p_erk_241_41c #p_itk_241_41c">Phemis</ref></item>
+                     <item><ref target="#p_zpk_241_41c #p_wqk_241_41c #p_yqk_241_41c #p_mtk_241_41c #p_rtk_241_41c #p_xtk_241_41c">Phoebades</ref></item>
+                     <item><ref target="#p_nqk_241_41c #p_vqk_241_41c #p_erk_241_41c #p_hrk_241_41c #p_o5k_241_41c">Plutus</ref></item>
+                     <item><ref target="#p_qqk_241_41c #p_vqk_241_41c #p_usk_241_41c">Set</ref></item>
+                     <item><ref target="#p_gqk_241_41c #p_hqk_241_41c #p_wqk_241_41c #p_yqk_241_41c #p_ntk_241_41c #p_f5k_241_41c">Torch-Bearers</ref></item>
+                  </list>
                </item>
             </list>
          </div>
