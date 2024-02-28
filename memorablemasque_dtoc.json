@@ -1,0 +1,23 @@
+{
+    "inputs": [
+        "https://raw.githubusercontent.com/rachelmilio/civic/main/memorablemasque_1.xml"
+    ],
+    "documents": "//div[@type='letter'or@type='performance'or@type='set'or@type='castlist'or@type='masque']",
+    "ignoreNamespace": true,
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "indexDocument": "//div[@type='index']",
+    "editionTitle": "Memorable Masque",
+    "editionSubtitle": "Masque of Lincoln's Inn and Middle Temple",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//speaker[@n='Capriccio']",
+                "label": "Capriccio"
+            }
+            ]
+            }
+}
