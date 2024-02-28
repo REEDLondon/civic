@@ -17,6 +17,34 @@
             {
                 "xpath": "//speaker[@n='Capriccio']",
                 "label": "Capriccio"
+            },
+            {
+                "xpath": "//speaker[@n='Plutus']",
+                "label": "Plutus"
+            },
+            {
+                "xpath": "//speaker[@n='Eunomia']",
+                "label": "Eunomia"
+            },
+            {
+                "xpath": "//speaker[@n='Honor']",
+                "label": "Honor"
+            },
+            {
+                "xpath": "//speaker[@n='Phemis']",
+                "label": "Phemis (the Herald)"
+            },
+            {
+                "xpath": "//speaker[@n='Chorus']",
+                "label": "Chorus"
+            },
+            {
+                "xpath": "//stage",
+                "label": "Stage Directions"
+            },
+            {
+                "xpath": "//lg[@type='song']",
+                "label": "Songs"
             }
             ]
             }
