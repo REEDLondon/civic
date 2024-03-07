@@ -1,0 +1,59 @@
+{
+    "editionTitle": "Memorable Masque",
+    "editionSubtitle": "Masque of Lincoln's Inn and Middle Temple",
+    "ignoreNamespace": true,
+    "documents": "//div[@type='letter'or@type='performance'or@type='set'or@type='castlist'or@type='masque']",
+    "documentContent": "",
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "indexDocument": "//div[@type='index']",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "inputs": [
+        "https://raw.githubusercontent.com/rachelmilio/civic/main/memorablemasque_1.xml"
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//speaker[@n='Capriccio']",
+                "label": "Capriccio"
+            },
+            {
+                "xpath": "//speaker[@n='Chorus']",
+                "label": "Chorus"
+            },
+            {
+                "xpath": "//speaker[@n='Eunomia']",
+                "label": "Eunomia"
+            },
+            {
+                "xpath": "//speaker[@n='Honor']",
+                "label": "Honor"
+            },
+            {
+                "xpath": "//speaker[@n='Phemis']",
+                "label": "Phemis (the Herald)"
+            },
+            {
+                "xpath": "//speaker[@n='Plutus']",
+                "label": "Plutus"
+            },
+            {
+                "xpath": "//lg[@type='song']",
+                "label": "Songs"
+            },
+            {
+                "xpath": "//stage",
+                "label": "Stage Directions"
+            }
+        ],
+        "toc": [
+            "be2004880b4ac3e387e94edd4484374c1a307a184aed3a96d0182178276b04be",
+            "4aae300b1df3ca69846e2c7352dcc9e262afc648d314241269d3900a501218e2",
+            "a578fa95e0ba784c00197a71937e7475fed2c78e8b457c5f675641a1da00cb54",
+            "78cf997f8171a6a68193c41f436b181d1662b6c0f46413270d1cdf1955e33233",
+            "32c8993d33138cf7b974059bd80031f845af0ce59ab104e3832460f723acfde1"
+        ]
+    }
+}
