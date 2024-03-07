@@ -15,7 +15,7 @@
                   </address>
                </orgName>
                <date from-iso="2018-01-01" to-iso="2018-12-31">NHPRC-Mellon Planning Grant</date>
-               <date from-iso="2020-01-01" to-iso="2023-12-31">NHPRC-Mellon Implementation
+               <date from-iso="2020-01-01" to-iso="2022-12-31">NHPRC-Mellon Implementation
                   Grant</date>
             </funder>
 
@@ -40,20 +40,10 @@
                <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
             </respStmt>
             <respStmt>
-               <persName>Kathy Chung</persName>
-               <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>REED Research Associate</resp>
-            </respStmt>
-            <respStmt>
                <persName xml:id="JC">James Cummings</persName>
                <orgName>Newcastle University</orgName>
                <resp>NHPRC-Mellon Project Team Member, 2018-Present</resp>
                <resp>Records of Early English Drama (REED) Executive Board</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Tanya Hagen</persName>
-               <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>Bibliographer</resp>
             </respStmt>
             <respStmt>
                <persName>Mihaela Ilovan</persName>
@@ -78,16 +68,20 @@
                <resp>Research Assistant, 2018-Present</resp>
             </respStmt>
             <respStmt>
-               <persName>Illya Nokhrin</persName>
-               <orgName>Records of Early English Drama (REED)</orgName>
-               <resp>REED Research Associate</resp>
-            </respStmt>
-            <respStmt>
                <persName>Charlotte Simon</persName>
                <orgName>Bucknell University</orgName>
                <resp>Research Assistant, 2018-Present</resp>
             </respStmt>
-
+            <respStmt>
+               <persName>Twity Gitonga</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Research Assistant, 2021-Present</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Evan Klimas</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Research Assistant, 2021-Present</resp>
+            </respStmt>
             <!-- The following additional persons participated in the first phase of REED London, funded by an NHPRC-Andrew W. Mellon Digital Edition Publishing Cooperatives Planning Grant, 2018 -->
 
             <respStmt>
@@ -150,6 +144,88 @@
                <resp>Editor, Inns of Court</resp>
             </respStmt>
 
+            <!-- The following persons are members of the REED Executive Board (2020-2021) -->
+            <respStmt>
+               <persName>Carolyn Black</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Project Manager</resp>
+            </respStmt>
+            <respStmt>
+               <persName>John Craig</persName>
+               <orgName>Simon Fraser University</orgName>
+               <resp>Chair</resp>
+            </respStmt>
+            <respStmt>
+               <persName>James Cummings</persName>
+               <orgName>Newcastle University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matthew Davies</persName>
+               <orgName>University of London</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alexandra Gillespie</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Greenfield</persName>
+               <orgName>University of Puget Sound</orgName>
+               <resp>Secretary</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alexandra F. Johnston</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Founder and Senior Consultant</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sally-Beth MacLean</persName>
+               <orgName>University of Toronto</orgName>
+               <resp>Director of Research and General Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>C.E. McGee</persName>
+               <orgName>St Jerome’s University</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Alan H. Nelson</persName>
+               <orgName>University of California, Berkeley</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Stevens</persName>
+               <orgName>University of Toronto </orgName>
+               <resp>Chair of English, ex officio</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Suzanne Westfall</persName>
+               <orgName>Lafayette College</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matthew Woodcock</persName>
+               <orgName>University of East Anglia</orgName>
+               <resp>Board Member</resp>
+            </respStmt>
+            <respStmt>
+               <persName>John Bradley</persName>
+               <orgName>King’s College London</orgName>
+               <resp>Senior Digital Advisor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>J.J. McGavin</persName>
+               <orgName>University of Southampton</orgName>
+               <resp>Corresponding Advisor</resp>
+            </respStmt>
+
             <!-- The following persons were REED directors and editorial staff involved in the print publication of Civic London to 1558, Ecclesiastical London, and Inns of Court -->
 
             <respStmt>
@@ -207,9 +283,10 @@
                <orgName>Records of Early English Drama (REED)</orgName>
                <resp>Associate Editor</resp>
             </respStmt>
+
          </titleStmt>
          <editionStmt>
-            <edition>version 3, released <date when-iso="2023-09-01">1 September 2023</date></edition>
+            <edition>version 2, released <date when-iso="2020-01-01">1 January 2020</date></edition>
          </editionStmt>
          <publicationStmt>
             <authority>
@@ -221,7 +298,9 @@
                   <addrLine>M5R 2M8</addrLine>
                </address>
             </authority>
-            <availability>               
+            <availability>
+               <p>Copyright <orgName>Records of Early English Drama (REED)</orgName>,
+                     <date>2020</date></p>
                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
                   under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
                   (CC BY-NC-SA 4.0) licence.</licence>
@@ -233,7 +312,7 @@
          <sourceDesc>
             <p>This publication constitutes a remediation of the printed REED collections - Inns of
                Court, Ecclesiastical London, and Civic London to 1558. Information on original
-               sources for transcriptions can be accessed via the Document Descriptions. Copyright for transcriptions remains with those print collections.<listBibl>
+               sources for transcriptions can be accessed via the Document Descriptions. <listBibl>
                   <biblStruct>
                      <monogr>
                         <title>Ecclesiastical London</title>
@@ -317,13 +396,29 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Records of Early English Drama (REED) is an international scholarly project that
-               is establishing for the first time the context from which the drama of
-               Shakespeare and his contemporaries grew. Founded in 1976, REED has worked since
-               then to locate, transcribe, and edit historical documents containing evidence of
-               drama, secular music, and other communal entertainment and ceremony from the
-               Middle Ages until 1642, when the Puritans closed the London theatres.</p>
-            <p>REED London Online is a prototype online collection developing from the Records of Early English Drama (REED) in partnership with the Canadian Writing Research Collaboratory (CWRC) and supported by Bucknell University. It aims to establish an openly accessible online scholarly and pedagogical resource of London-centric documentary, editorial, and bibliographic materials related to performance, theatre, and music spanning the period 1100-1642. With support from an NHPRC-Mellon Planning Grant for Digital Edition Publishing Cooperatives and CANARIE Research Software Program grants, REED London is creating new environments for scholarly presentation of archival materials gathered from legal, ecclesiastical, civic, political, and personal archival sources in and around London. The objective of the REED London project team is to build a stable, extensible publication environment that optimizes access to these compiled materials in ways that respond to scholars’ research interests across disciplines. Consulting with other planning grant recipients will be invaluable to ensuring that REED London’s production and publication environment is in line with standards laid out in the NHPRC-Mellon grant objectives. It is hoped that the progress REED London and CWRC make will also inform the larger dialogue about best practices among funded teams.</p>
+            <p>Records of Early English Drama (REED) is an international scholarly project that is
+               establishing for the first time the context from which the drama of Shakespeare and
+               his contemporaries grew. Founded in 1976, REED has worked since then to locate,
+               transcribe, and edit historical documents containing evidence of drama, secular
+               music, and other communal entertainment and ceremony from the Middle Ages until 1642,
+               when the Puritans closed the London theatres.</p>
+            <p>REED London Online is a prototype online collection developing from the Records of
+               Early English Drama (REED) in partnership with the Canadian Writing Research
+               Collaboratory (CWRC) and supported by Bucknell University. It aims to establish an
+               openly accessible online scholarly and pedagogical resource of London-centric
+               documentary, editorial, and bibliographic materials related to performance, theatre,
+               and music spanning the period 1100-1642. With support from an NHPRC-Mellon Planning
+               Grant for Digital Edition Publishing Cooperatives and CANARIE Research Software
+               Program grants, REED London is creating new environments for scholarly presentation
+               of archival materials gathered from legal, ecclesiastical, civic, political, and
+               personal archival sources in and around London. The objective of the REED London
+               project team is to build a stable, extensible publication environment that optimizes
+               access to these compiled materials in ways that respond to scholars’ research
+               interests across disciplines. Consulting with other planning grant recipients will be
+               invaluable to ensuring that REED London’s production and publication environment is
+               in line with standards laid out in the NHPRC-Mellon grant objectives. It is hoped
+               that the progress REED London and CWRC make will also inform the larger dialogue
+               about best practices among funded teams.</p>
          </projectDesc>
          <classDecl>
             <taxonomy>
@@ -334,7 +429,7 @@
                   </category>
                   <category xml:id="eccl">
                      <catDesc>Ecclesiastical London</catDesc>
-                  </category>    
+                  </category>
                   <category xml:id="civic">
                      <catDesc>Civic London to 1558</catDesc>
                   </category>
@@ -381,7 +476,7 @@
                      <catDesc>religious community</catDesc>
                   </category>
                </category>
-               
+
                <category xml:id="repositories">
                   <catDesc>Repositories</catDesc>
                   <category xml:id="all-hallows-tower">
@@ -529,7 +624,7 @@
                   <category xml:id="MT-Lib">
                      <catDesc>
                         <choice>
-                           <abbr>MT Lib</abbr> 
+                           <abbr>MT Lib</abbr>
                            <expan>Middle Temple Library</expan>
                         </choice>
                      </catDesc>
@@ -596,76 +691,52 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2020-07-23" who="#CB">Added repositories and abbreviations to TEI header for Archivo General de Simancas, GI Arch, IT Arch, IT Lib, LI Arch, LI Lib, MT Arch, and MT Lib</change>
-         <change when="2020-07-23" who="#CB">Replaced current REED editorial staff section in TEI header with names of staff responsible for three London collections</change>
-         <change when="2020-02-15" who="#JAKA1">Updated master TEI header to refer to ongoing funding for REED London Online and to recognize repositories and record types as project expands.</change>
+         <change when="2020-07-23" who="#CB">Added repositories and abbreviations to TEI header for
+            Archivo General de Simancas, GI Arch, IT Arch, IT Lib, LI Arch, LI Lib, MT Arch, and MT
+            Lib</change>
+         <change when="2020-07-23" who="#CB">Replaced current REED editorial staff section in TEI
+            header with names of staff responsible for three London collections</change>
+         <change when="2020-02-15" who="#JAKA1">Updated master TEI header to refer to ongoing
+            funding for REED London Online and to recognize repositories and record types as project
+            expands.</change>
       </revisionDesc>
    </teiHeader>
    <text type="record">
       <body>
-         <!--[THIS NOTE IS RESERVED FOR EXPLANATION OF RECORD STRUCTURE. PLEASE REMOVE
-            BEFORE YOU PUBLISH THIS RECORD. There are two levels of div - the
-            outermost level is for the "record" or whole text and/or endnote. Second level is for
-            transcription and translation. If you have multiple gobbets to encode, add them by
-            creating a div element with @type = "record" and then within that div element with @type
-            = "transcription" and "translation" (only adding translation where necessary
-            Information from the REED printed volume headnote is placed at the record level.
-            Page type information is placed within the pb - either folio or single sheet as well as
-            the folio number or other distinguishing number. For transcription or translation,
-            indicate @type and xml:lang. If the record is an excerpt, add a gap element with
-            @reason="omitted". By default the record text is structured using the ab element.
-            If the text is in the form of a table or list, you can change the ab tag to either of
-            those. A second nested div set has been added for convenience. If that div set is
-            not required, please remove.]-->
-         
-        <div type="record_title"> 
-           <head>
-              <title><!--(e.g., Middle Temple Treasurer's Receipts, <date from-iso="1614" to-iso="1615">1614–15</date>--></title>
-           </head>
-        </div>
-         <div type="transcription"> 
-            <div xml:lang="LANGUAGE">
-               <label>
-                  <supplied><!--Provide the editorial subhead from the REED volume in this space (e.g., f 13 (<date from="1614-11-022 to="1615-11"> November 1614–24 November 1615</date>) (Pensions, fines, rents, and
-                  amercements)--></supplied>
-               </label>
-               <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
+         <div><head>Merchant Taylors’ Accounts<date from-iso="1550" to-iso="1551"
+               >1550-51</date></head></div>
+         <div type="transcription">
+            <div>
+               <head>
+                  <supplied>f 199 (<date from-iso="03-25" to-iso="03-25">25 March-25 March</date>) (Payments)</supplied>
+               </head>
+               <pb type="folio" n="199"/>
                <gap reason="omitted"/>
-               <ab><!--Add text for transcription here--></ab>
+        
+               <ab>
+                  <table>
+                     <row>
+                        <cell><expan>Item</expan> <expan>paid</expan> to the <expan>waytes</expan> at the ffeaste daye</cell>
+                        <cell><measure type="currency">vj s. viij d.</measure></cell>
+                     </row>
+                     <row>
+                        <cell><expan>Item</expan> <expan>paid</expan> for havyng the Children of <expan>poulles</expan> to playe and
+                           synge here at the said fest daye</cell>
+                        <cell>xiij s. iiij d.</cell>
+                     </row>
+                  </table>
+               </ab>
                <gap reason="omitted"/>
             </div>
             
-            <div>
-               <label>
-                  <supplied><!--SECOND RECORD)--></supplied>
-               </label>
-               <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
-               <gap reason="omitted"/>
-               <ab><!--Add text for transcription here--></ab>
-               <gap reason="omitted"/>
-            </div>
+           
          </div>
-         
-         <div type="translation" xml:lang="LANGUAGE">
-            <label>
-               <supplied><!--Provide the editorial subhead from the REED volume in this space (e.g., f 13 (2 November 1614–24 November 1615) (Pensions, fines, rents, and
-                  amercements)--></supplied>
-            </label>
-            <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
-            <gap reason="omitted"/>
-            <ab><!--Add text for translation here - otherwise remove this div tag and all content
-               within--></ab>
-            <gap reason="omitted"/>
-         </div>
-
-         
          <div type="endnote">
-            <div><head>Endnote</head>
-            <p><!--Add text for endnote here - otherwise remove this div tag and all content
-               within--></p>
+         	<div>
+         	<head>Endnote:</head>
+            	<p>For the June 1551 dating of the feast time, see The Documents, pp cxiii–cxiv.</p>
             </div>
          </div>
-         
       </body>
    </text>
 </TEI>
