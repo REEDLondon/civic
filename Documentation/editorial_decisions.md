@@ -69,3 +69,9 @@ Because REED London is particularly interested in events that were associated in
 3. municipal (any event that involves the political life of the City, e.g., a mayoral pageant or oath)
 4. guild (any event at which a guild gathers)
 5. calendar (any event by which Londoners understood the year, e.g., May Day, Twelfth Night, Christmas time, etc.)
+
+## FINANCE
+
+Because REED London records are overwhelmingly concerned with business dealings that include payment, invoicing, debts, fines, etc., we are capturing amounts as `<measure type="currency">`
+
+We have not yet determined whether or how to capture amounts of money, because records sometimes refer to marks, pounds, shillings, pence, etc.
