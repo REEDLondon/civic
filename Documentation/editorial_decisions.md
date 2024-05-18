@@ -30,4 +30,32 @@ Add as many record gobbets as needed
 
 NOTES: Because LEAF allows us to capture notes at the point of insertion, there is no need to use endnotes at the bottom of the text.
 
-TRANSLATIONS: Because LEAF allows us to capture translations in a subsequent div, use that function in LEAF-Writer to capture translations. However, default div should be the English language version, even if that is a modern version of the original Latin or other language.
+## PEOPLE
+
+Named people (both explicit and implicit, e.g. by honorific) are identified with `<persName>` tag once in each of the records in a record set.
+
+People who have a REED identifier are tagged with that identifier (if there is also a Wikidata identifier, this will connect that information.)
+
+People should have a REED identifier with the following conditions:
+
+1. They are identified by at least a last name (can be variant spelled)
+2. They have at least one life date (the date of the record counts as a 'floruit date')
+3. They are referred to in the body of a record (not in REED edition editorial or documentary apparatus)
+
+## PLACES
+
+REED London has captured over 400 place names /link/ and disambiguated them against the Map of Early Modern London and Wikidata URIs. Named places are identified with `<placeName>` tag once in each of the records in a record set.
+
+## ORGANIZATIONS
+
+REED London has created identifiers for all XX worshipful companies in London that were active during the scoped period (e.g. 1300-1650).LINK
+
+Named organizations are captured in the titles of record sets as well as once in contextual references in each of the records in a record set.
+
+## OCCUPATIONS
+
+REED London has resolved occupation types against the LINCS vocabularies. Occupations are captured as roles associated with named persons. 
+
+## TRANSLATIONS
+
+Because LEAF allows us to capture translations in a subsequent div, use that function in LEAF-Writer to capture translations. However, default div should be the English language version, even if that is a modern version of the original Latin or other language.
