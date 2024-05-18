@@ -59,3 +59,13 @@ REED London has resolved occupation types against the LINCS vocabularies. Occupa
 ## TRANSLATIONS
 
 Because LEAF allows us to capture translations in a subsequent div, use that function in LEAF-Writer to capture translations. However, default div should be the English language version, even if that is a modern version of the original Latin or other language.
+
+## EVENTS
+
+Because REED London is particularly interested in events that were associated in some way with performance (and vice versa) we are using the `<eventName>` tag to capture information about *known* events, and capturing types of events, such that:
+
+1. holy day (e.g., Saint's Day)
+2. royal (any event that involves a monarch or member of the royal family)
+3. municipal (any event that involves the political life of the City, e.g., a mayoral pageant or oath)
+4. guild (any event at which a guild gathers)
+5. calendar (any event by which Londoners understood the year, e.g., May Day, Twelfth Night, Christmas time, etc.)

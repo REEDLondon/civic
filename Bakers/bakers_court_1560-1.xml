@@ -617,25 +617,27 @@
       <body>         
         <div type="record_set"> 
            <head>
-              <title><!--(e.g., Middle Temple Treasurer's Receipts, <date from-iso="1614" to-iso="1615">1614–15</date>--></title>
-           </head>
+              <title>Bakers’ Company Court Minutes, 1537-61</title></head>
+           <bibl>LMA: CLC/L/BA/B/001/MS05177/001</bibl>
          <div type="record">
                <head>
-                  <supplied><!--Provide the editorial subhead from the REED volume in this space (e.g., f 13 (<date from="1614-11-022 to="1615-11"> November 1614–24 November 1615</date>) (Pensions, fines, rents, and
-                  amercements)--></supplied>
+                  <supplied>f 167r (7th May 1560)</supplied>
                </head>
-               <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
+               <pb type="folio" n="167r"/>
                <gap reason="omitted"/>
-               <ab><!--Add text for transcription here--></ab>
+            <ab>At this court by thassent of the said persones, Thomas Harryson one of the whiflers at the quenys nythe is paid for his paynes iij s. iiij d.</ab>
                <gap reason="omitted"/>           
          </div>
          <div type="record">
-               <label>
-                  <supplied><!--SECOND RECORD)--></supplied>
-               </label>
-               <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
+               <head>
+                  <supplied>f 171r (23rd October 1560)</supplied>
+               </head>
+               <pb type="folio" n="171r"/>
+            <ab type="marginal_heading">Stewardes ayenst the Mayres ffeast }</ab>
                <gap reason="omitted"/>
-               <ab><!--Add text for transcription here--></ab>
+            <ab>John Myshame Henry Awsten and John Moreton and William Healy paide to theym - xl s.<lb/>
+               <del>Humfrey Store</del>
+            </ab>
                <gap reason="omitted"/>
             </div>
          </div>         

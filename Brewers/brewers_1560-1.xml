@@ -617,28 +617,33 @@
       <body>         
         <div type="record_set"> 
            <head>
-              <title><!--(e.g., Middle Temple Treasurer's Receipts, <date from-iso="1614" to-iso="1615">1614–15</date>--></title>
+              <title>Brewers’ Wardens’ Accounts, 1547-62 - 29 September 1560-29 September 1561</title>
            </head>
+           <bibl>LMA: CLC/L/BF/D/001/MS05442/003</bibl>
          <div type="record">
                <head>
-                  <supplied><!--Provide the editorial subhead from the REED volume in this space (e.g., f 13 (<date from="1614-11-022 to="1615-11"> November 1614–24 November 1615</date>) (Pensions, fines, rents, and
-                  amercements)--></supplied>
+                  <supplied>f 142r (Payments)</supplied>
                </head>
-               <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
+               <pb type="folio" n="142r"/>
                <gap reason="omitted"/>
-               <ab><!--Add text for transcription here--></ab>
+               <table>
+                  <row>
+                     <cell>Item delyvered vnto Roberte ley, Nicholas Caluerley Stewardes for our dener the morrowe after Symon &amp; Jude</cell>
+                     <cell>vli.</cell>
+                  </row>
+                  <row>
+                     <cell>Item for the hyre of our barge &amp;c</cell>
+                     <cell>xxxiij s. iiij d.</cell>
+                  </row>
+               </table>
                <gap reason="omitted"/>           
          </div>
-         <div type="record">
-               <label>
-                  <supplied><!--SECOND RECORD)--></supplied>
-               </label>
-               <pb/><!--Provide the first page, sheet, folio, etc, within the sole <pb/> tag (e.g., <pb n="13" type="folio"/>-->
-               <gap reason="omitted"/>
-               <ab><!--Add text for transcription here--></ab>
-               <gap reason="omitted"/>
-            </div>
          </div>         
       </body>
    </text>
 </TEI>
+
+
+
+
+
