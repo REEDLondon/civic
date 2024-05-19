@@ -640,35 +640,76 @@
       <body>
          <div type="record_set">
             <head>
-               <title>TEXT</title>
+               <title>24 June 1558-24 June 1559</title>
             </head>
             <div type="record">
                <head>
-                  <supplied>TEXT</supplied>
+                  <supplied>f 58r (Renters accounts payments)</supplied>
                </head>
-               <pb/>
+               <pb type="folio" n="58r"/>
                <gap reason="omitted"/>
                <ab>
-                  
+                  <table>
+                     <row>
+                        <cell>paid to the Bardgman to waite on the quenes grace for the Companie
+                           when her grace came from Westmynster to the Tower of London</cell>
+                        <cell>xvj s.</cell>
+                     </row>
+                  </table>
                </ab>
                <gap reason="omitted"/>
             </div>
             <div type="record">
-               <head>
-                  <supplied>text</supplied>
-               </head>
-               <pb/>
+               <label>
+                  <supplied>(f 58v)</supplied>
+               </label>
+               <pb type="folio" n="58v"/>
                <gap reason="omitted"/>
-               <ab>
-                  
-               </ab>
+               <ab><table>
+                     <row>
+                        <cell>paid for mendyng the Rayles and settyng vppe the same beyng out of
+                           square att the co<ex>m</ex>mynge in of the quenes grace ---- ij s.</cell>
+                     </row>
+                     <row>
+                        <cell>paid for carredge of them to and fro</cell>
+                        <cell>xij d.</cell>
+                     </row>
+                     <row>
+                        <cell>paid for nayles and Corde</cell>
+                        <cell>iiij d.</cell>
+                     </row>
+                     <row>
+                        <cell>paid to A carpenter for A daie and A half Agaynst the coronacion for
+                           settyng vppe of the same Rayles in the yarde and for mendyng of them
+                           where they were foull broken</cell>
+                        <cell>xviij d.</cell>
+                     </row>
+                     <row>
+                        <cell>paid for A dubbill quarter and ij sengill quarters</cell>
+                        <cell>xij d.</cell>
+                     </row>
+                     <row>
+                        <cell>paid to the same carpenter for settynge vppe the same Rayles att the
+                           Coronacion and takyng them downe Agayne</cell>
+                        <cell>xij d.</cell>
+                     </row>
+                     <row>
+                        <cell>paid for caredge to and fro</cell>
+                        <cell>xx d.</cell>
+                     </row>
+                     <row>
+                        <cell>paid for nayles</cell>
+                        <cell>ij d. ob.</cell>
+                     </row>
+                  </table></ab>
                <gap reason="omitted"/>
             </div>
          </div>
          <div type="bibliography">
             <bibl>
-               <title>TEXT</title>
-               <idno>##</idno>
+               <title>Tallow Chandlers’ Wardens’ Account Book, 1549-1585</title>
+               <idno from="1549" to="1585" corresp="#london-metropolitan-archives">LMA:
+                  CLC/L/TC/D/001/MS06152/001</idno>
             </bibl>
          </div>
       </body>

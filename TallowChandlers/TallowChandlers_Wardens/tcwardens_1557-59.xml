@@ -636,40 +636,104 @@
             expands.</change>
       </revisionDesc>
    </teiHeader>
-   <text type="record">
+   <text type="document">
       <body>
          <div type="record_set">
             <head>
-               <title>TEXT</title>
-            </head>
-            <div type="record">
+               <title>6 August 1557–6 August 1559</title></head>
+            <div type="record" xml:lang="en">
                <head>
-                  <supplied>TEXT</supplied>
+                  <supplied>f 68v (Wardens accounts payments for election day feast)</supplied>
                </head>
-               <pb/>
+               <pb type="folio" n="68v"/>
                <gap reason="omitted"/>
-               <ab>
-                  
+               <ab><note type="margin">Mynstrelles &amp; players</note>] <table>
+                     <row>
+                        <cell>Paid to the mynstrelles</cell>
+                        <cell>viij s.</cell>
+                     </row>
+                     <row>
+                        <cell>paid more with the consent of the maisters of oure companie to the
+                           said mynstrelles in rewarde for mondaie</cell>
+                        <cell>iij s. iiij d.</cell>
+                     </row>
+                     <row>
+                        <cell>paid to the Boyes of the hospital for the playe on mondaie</cell>
+                        <cell>v s.</cell>
+                     </row>
+                  </table>
                </ab>
                <gap reason="omitted"/>
             </div>
-            <div type="record">
+            <div type="record" xml:lang="en">
                <head>
-                  <supplied>text</supplied>
+                  <supplied>f 69v (Inventory of goods in the hall dated 28 September
+                     1559)</supplied>
+                  <title rend="center">In the parlor</title>
                </head>
-               <pb/>
+               <pb type="folio" n="69v"/>
+               <label rend="center"><title>In the parlour</title></label>
                <gap reason="omitted"/>
-               <ab>
-                  
-               </ab>
+               <ab> ij olde bancars lyned</ab>
+               <gap reason="omitted"/>
+               <list>
+                  <item>A Targett with the Armys of the haul</item>
+                  <item>A squytchen with iij tirtle doves</item>
+               </list>
+               <gap reason="omitted"/>
+               <label rend="center"><title>In the haull</title></label>
+               <gap reason="omitted"/>
+               <list>
+                  <item>A gilt Beame with v latyn candilstickes with the ymage of our lady and A
+                     Tirtle dove with iiij latyn cheynes longe or short, ij Clothes, the one of the
+                     ymage of the Assumpcion of our ladie and the other of oure ladie and Seynt
+                     Elizabeth,</item>
+                  <item>A Gylded lyon of woodd</item>
+                  <item>xiiij Targettes great and small,</item>
+               </list>
                <gap reason="omitted"/>
             </div>
-         </div>
-         <div type="bibliography">
-            <bibl>
-               <title>TEXT</title>
-               <idno>##</idno>
-            </bibl>
+            <div type="record" xml:lang="en">
+               <head><supplied>(f 70r) In the court house</supplied></head>
+               <pb type="folio" n="70r"/>
+               <gap reason="omitted"/>
+               <list>
+                  <item>A chest wherein are iiij disgysed cottes of canves with iij hoodes for
+                     correction</item>
+                  <item>iiij Streymers of reee silke</item>
+                  <item>iij flagges of Silk good and bade</item>
+                  <item>ij Streymers grene, the one of the picture of Seynt Peter and the other of
+                     the Armys of London of the gifte of Master John Mery</item>
+                  <item>iiij small flagges </item>
+                  <item>vij small penselles </item>
+               </list>
+               <gap reason="omitted"/>
+               <label><title rend="center">In the yarde</title></label>
+               <gap reason="omitted"/>
+               <list>
+                  <item>v peces of tymber for the companie to stonde vppon at euery tryomphe,</item>
+                  <item>vj banner Staves good and badde,</item>
+               </list>
+               <gap reason="omitted"/>
+            </div>
+            <div type="record" xml:lang="en">
+               <head><supplied>f 72r (Orders in the time of the 1557-59 wardens. 11 July
+                     1559)</supplied></head>
+               <pb type="folio" n="72r"/>
+               <gap reason="omitted"/>
+               <ab>This daie it was agreed that whereas of olde tyme there hathe byne no more but v
+                  s. Allowed to the mynstrelles of the Election dynner daie/ the master Wardens
+                  &amp; Assistauntis thynke yt good &amp; be so determined that the mynstrelles
+                  shall haue for the election dynner daie nowe next commynge -x s.</ab>
+               <gap reason="omitted"/>
+            </div>
+            <div type="bibliography">
+               <bibl>
+                  <title>Tallow Chandlers’ Wardens’ Account Book, 1549-1585</title>
+                  <idno from="1549" to="1585" corresp="#london-metropolitan-archives">LMA:
+                     CLC/L/TC/D/001/MS06152/001</idno>
+               </bibl>
+            </div>
          </div>
       </body>
    </text>

@@ -640,35 +640,90 @@
       <body>
          <div type="record_set">
             <head>
-               <title>TEXT</title>
+               <title>6th August 1559- 6th August 1561</title>
             </head>
-            <div type="record">
+            <div type="record" xml:lang="en">
                <head>
-                  <supplied>TEXT</supplied>
+                  <supplied>f 84v (Wardens accounts payments)</supplied>
                </head>
-               <pb/>
-               <gap reason="omitted"/>
-               <ab>
-                  
+               <pb type="folio" n="84v"/>
+               <gap reason="omitted"/>               
+                  <note type="margin">Players</note>
+                 <ab> 
+                    <table>
+                       <row>
+                          <cell role="label">paid to the M<ex>aste</ex>r of the Children of paules for their musick and playing of An Enterlude</cell>
+                          <cell role="data">xiij s. iiij d.</cell>
+                       </row>
+                  <row>
+                     <cell role="label">paid to M<ex>aste</ex>r Phillippes for the playing of the Regall<ex>es</ex> and for the government of the Children</cell>
+                     <cell role="data">v s.</cell>
+                  </row>
+                    </table>
+                    <gap reason="omitted"/> 
+                  <table>
+                     <row>
+                        <cell role="label">paid to the Clerke and the syngingmen of St Buttolphes without Bisshoppes gate</cell>
+                        <cell role="data">ij s. viij d.</cell>
+                     </row>
+                  </table>
+                    <gap reason="omitted"/> 
                </ab>
-               <gap reason="omitted"/>
             </div>
             <div type="record">
-               <head>
-                  <supplied>text</supplied>
-               </head>
-               <pb/>
+               <head><supplied>f 85v (Inventory of goods in the hall dated 28th September 1561)</supplied></head>
+               <pb type="folio" n="85v"/>
                <gap reason="omitted"/>
                <ab>
-                  
+                  <label rend="center">In the parlor</label>
+                  <list>
+                     <item>vj Cusshens</item>
+                  <item>ij olde bankers lined,</item>
+                  </list>
+                  <gap reason="omitted"/>
+                  <list>
+                     <item>A Targett w<ex>i</ex>th the Armys of the haul</item>
+                  <item>A Squytchen w<ex>i</ex>th iij Turtle doves,</item>
+                  </list>
+                  <gap reason="omitted"/>
+                  <label rend="center">In the haul</label>
+                  <gap reason="omitted"/>
+                  <list>
+                     <item>A gilt beame w<ex>i</ex>th v lattyn candilstick<ex>es</ex> with the ymage of o<ex>u</ex>r lady and A Tirtle dove w<ex>i</ex>th iiij lattyn cheynes long or short</item>
+                  <item>ij Clothes the one of the ymege of the Assumpcion of oure lady and the other of oure ladie and Seynt Elizabeth</item>
+                  <item>A gylded lyon of wood</item>
+                  <item>xiiij Targett<ex>es</ex> great and small,</item>
+                  </list>
                </ab>
+            </div>
+            <div>
+               <head><supplied>(f 86)</supplied></head>
+               <pb type="folio" n="86"/>
                <gap reason="omitted"/>
+               <ab>
+                  <label rend="center">In the court howse</label>
+                  <gap reason="omitted"/>
+                  <list>
+                     <item>A chest wherein are iiij disguised cot<ex>es</ex> with iij hood<ex>es</ex> for correction</item>
+                  <item>iiij Streymers of red silke</item>
+                  <item>iij flagg<ex>es</ex> of Silke good and badde</item>
+                  <item>ij Streymers greene the one of the picture of Seynt Peter and the other of the Armys of london of the gyfte of M<ex>aste</ex>r John Mery</item>
+                  <item>iiij small flagg<ex>es</ex></item>
+                  <item>vij small pensell<ex>es</ex></item>
+                  </list>
+                  <gap reason="omitted"/>
+                  <label rend="center">In the yarde</label>
+                  <list>
+                     <item>v peces of Tymber for the Companye to stande vppon at every tryomphe</item>
+                  <item>vj banner staves good and badde</item>
+                  </list>
+               </ab>
             </div>
          </div>
          <div type="bibliography">
             <bibl>
-               <title>TEXT</title>
-               <idno>##</idno>
+               <title>Tallow Chandlers’ Wardens’ Account Book, 1549-1585</title>
+               <idno from="1549" to="1585" corresp="#london-metropolitan-archives">LMA: CLC/L/TC/D/001/MS06152/001</idno>
             </bibl>
          </div>
       </body>

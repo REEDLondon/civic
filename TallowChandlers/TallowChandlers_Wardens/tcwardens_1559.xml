@@ -640,35 +640,83 @@
       <body>
          <div type="record_set">
             <head>
-               <title>TEXT</title>
+               <title>Tallow Chandlers’ Wardens’ Account Book, 1559</title>
             </head>
-            <div type="record">
+            <div type="record" xml:lang="en">
                <head>
-                  <supplied>TEXT</supplied>
+                  <supplied>f 69v (Inventory of goods in the hall dated 28th September
+                     1559)</supplied>
                </head>
-               <pb/>
+               <pb type="folio" n="69v"/>
                <gap reason="omitted"/>
                <ab>
-                  
+                  <label rend="center">In the parlor</label>
+                  <gap reason="omitted"/>
+                  <list>
+                     <item>ij olde bancars lyned</item>
+                  </list>
+                  <gap reason="omitted"/>
+                  <list>
+                     <item>A Targett with the Armys of the haul</item>
+                     <item>A squytchen with iij tirtle doves</item>
+                  </list>
+                  <gap reason="omitted"/>
+                  <label rend="center">In the haull</label>
+                  <gap reason="omitted"/>
+                  <list>
+                     <item>A gilt Beame with v latyn candilstick<ex>es</ex> with the ymage of o<ex>u</ex>r lady and A
+                        Tirtle dove w<ex>i</ex>th iiij latyn cheynes longe or short,</item>
+                     <item>ij Clothes, the one of the ymage of the Assumpcion of o<ex>u</ex>r ladie and the
+                        other of oure ladie and Seynt Elizabeth,</item>
+                     <item>A Gylded lyon of woodd</item>
+                     <item>xiiij Targett<ex>es</ex> great and small,</item>
+                  </list>
                </ab>
                <gap reason="omitted"/>
             </div>
-            <div type="record">
+            <div type="record" xml:lang="en">
                <head>
-                  <supplied>text</supplied>
+                  <supplied>(f 70r) In the court house</supplied>
                </head>
-               <pb/>
+               <pb type="folio" n="70r"/>
                <gap reason="omitted"/>
                <ab>
-                  
+                  <list>
+                     <item>A chest wherein are iiij disgysed cott<ex>es</ex> of canves with iij hood<ex>es</ex> for
+                        correction</item>
+                     <item>iiij Streymers of reee silke</item>
+                     <item>iij flagg<ex>es</ex> of Silk good and bade</item>
+                     <item>ij Streymers grene, the one of the picture of Seynt Peter and the other
+                        of the Armys of London of the gifte of M<ex>aste</ex>r John Mery</item>
+                     <item>iiij small flagg<ex>es</ex></item>
+                     <item>vij small pensell<ex>es</ex></item>
+                  </list>
                </ab>
                <gap reason="omitted"/>
+               <label rend="center">In the yarde</label>
+               <gap reason="omitted"/>
+               <list>
+                  <item>v pec<ex>es</ex> of tymber for the companie to stonde vppon at eu<ex>er</ex>y tryomphe,</item>
+                  <item>vj banner Staves good and badde,</item>
+               </list>
+               <gap reason="omitted"/>
+            </div>
+            <div type="record" xml:lang="en">
+               <head><supplied>f 72r (Orders in the time of the 1557-59 wardens. 11th July
+                     1559)</supplied></head>
+               <pb type="folio" n="72r"/>
+               <gap reason="omitted"/>
+               <ab>This daie it was agreed that whereas of olde tyme there hathe byne no more but v
+                  s. Allowed to the mynstrell<ex>es</ex> of the Election dynner daie/ the m<ex>aste</ex>r Wardens
+                  &amp; Assistauntis thynke yt good &amp; be so determined that the mynstrell<ex>es</ex>
+                  shall haue for the election dynner daie nowe next co<ex>m</ex>mynge<lb/> -x s.</ab>
             </div>
          </div>
          <div type="bibliography">
             <bibl>
-               <title>TEXT</title>
-               <idno>##</idno>
+               <title>Tallow Chandlers’ Wardens’ Account Book, 1549-1585</title>
+               <idno from="1549" to="1585" corresp="#london-metropolitan-archives">LMA:
+                  CLC/L/TC/D/001/MS06152/001</idno>
             </bibl>
          </div>
       </body>
