@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet href="https://cwrc.ca/islandora/object/cwrc%3A5d5159ce-8710-4717-b977-cc528dedc25e/datastream/CSS/view" type="text/css"?>
+<?xml-stylesheet type="css" href="https://raw.githubusercontent.com/REEDLondon/documentation/main/rlo_leaf.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="tei/records/" xml:id="london"
    xml:lang="eng">
-<?xml-stylesheet type="css" href="https://raw.githubusercontent.com/REEDLondon/documentation/main/rlo_leaf.css"?>
+
    <teiHeader>
       <fileDesc>
          <titleStmt>
