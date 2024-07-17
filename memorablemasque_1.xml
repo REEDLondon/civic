@@ -3,6 +3,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="tei/records/" xml:id="london"
    xml:lang="eng">
+<?xml-stylesheet type="css" href="https://raw.githubusercontent.com/REEDLondon/documentation/main/rlo_leaf.css"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
