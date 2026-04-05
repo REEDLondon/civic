@@ -1,0 +1,205 @@
+/* ============================================================
+   REED York — Marginal Notes Stylesheet
+   For use with LEAF-Writer / TEI XML (yorkc_1.xml)
+
+   How to apply:
+   Add a second <?xml-stylesheet?> processing instruction
+   at the top of your XML, AFTER the existing leaf.css line:
+
+     <?xml-stylesheet type="text/css" href="reed-marginal-notes.css"?>
+
+   Or merge these rules into your existing hosted CSS file.
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   1. PAGE / BODY LAYOUT
+   Create a centred content column with wide left and right
+   margin areas for notes to live in.
+   ------------------------------------------------------------ */
+
+TEI, text, group, body {
+    display: block;
+}
+
+body {
+    /* The main text column — centred with wide gutters */
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* These are the margin "channels" the notes will float into.
+       Must be at least as wide as --margin-note-width below. */
+    padding-left: 220px;
+    padding-right: 220px;
+
+    /* Needed so floated notes with negative margins remain visible */
+    overflow: visible;
+
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1rem;
+    line-height: 1.65;
+    color: #1a1a1a;
+}
+
+
+/* ------------------------------------------------------------
+   2. BLOCK ELEMENTS
+   Most TEI block elements need position: relative so that
+   floated notes inside them are contained correctly.
+   ------------------------------------------------------------ */
+
+div, ab, head, row, cell, table {
+    display: block;
+    position: relative;
+    overflow: visible;   /* keep negative-margin floats visible */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+row  { display: table-row; }
+cell { display: table-cell; padding: 0.25em 0.5em; vertical-align: top; }
+
+ab   { margin-bottom: 0.75em; }
+head { font-weight: bold; margin-bottom: 0.5em; }
+
+pb::before {
+    content: "[folio " attr(n) "] ";
+    font-size: 0.75em;
+    font-style: italic;
+    color: #888;
+}
+
+
+/* ------------------------------------------------------------
+   3. MARGINAL NOTES — SHARED BASE STYLES
+   ------------------------------------------------------------ */
+
+note[type="marginal"] {
+    /* Sizing — tune --margin-note-width to match padding-left/right above */
+    --margin-note-width: 190px;
+    --margin-gutter:      16px;   /* breathing room between note and text */
+
+    display: block;
+    width: var(--margin-note-width);
+
+    /* Visual treatment */
+    font-size: 0.82em;
+    line-height: 1.4;
+    font-style: italic;
+    color: #555;
+    border-top: 1px solid #ccc;
+    padding-top: 2px;
+
+    /* Prevent long notes from stacking on top of each other */
+    clear: both;
+}
+
+
+/* ------------------------------------------------------------
+   4. LEFT MARGIN NOTES
+   Float left, then pull the note leftward with a negative
+   margin so it sits in the padding channel created in rule 1.
+   ------------------------------------------------------------ */
+
+note[type="marginal"][place="margin_left"] {
+    float: left;
+    clear: left;
+
+    /* Pull the note left of the text column into the margin channel.
+       Formula: -(note-width + gutter) */
+    margin-left: calc(-1 * (var(--margin-note-width) + var(--margin-gutter)));
+    margin-right: var(--margin-gutter);
+
+    text-align: right;   /* right-align so it reads toward the text */
+}
+
+
+/* ------------------------------------------------------------
+   5. RIGHT MARGIN NOTES
+   Mirror of rule 4.
+   ------------------------------------------------------------ */
+
+note[type="marginal"][place="margin_right"] {
+    float: right;
+    clear: right;
+
+    margin-right: calc(-1 * (var(--margin-note-width) + var(--margin-gutter)));
+    margin-left: var(--margin-gutter);
+
+    text-align: left;
+}
+
+
+/* ------------------------------------------------------------
+   6. FOOTNOTES — keep them inline / below, not in margin
+   ------------------------------------------------------------ */
+
+note[type="foot"] {
+    display: inline;
+    font-size: 0.8em;
+    color: #777;
+    vertical-align: super;
+}
+
+note[type="foot"]::before { content: " ["; }
+note[type="foot"]::after  { content: "]"; }
+
+
+/* ------------------------------------------------------------
+   7. OTHER INLINE ELEMENTS
+   ------------------------------------------------------------ */
+
+hi[rend="superscript"]   { vertical-align: super;  font-size: 0.75em; }
+hi[rend="italic"]        { font-style: italic; }
+hi[rend="underline"]     { text-decoration: underline; }
+
+ex::before { content: "("; }
+ex::after  { content: ")"; }
+ex         { color: #666; font-style: italic; }
+
+add[place="above"] {
+    vertical-align: super;
+    font-size: 0.8em;
+    color: #5a5;           /* editorial green — adjust to taste */
+}
+
+del {
+    text-decoration: line-through;
+    color: #999;
+}
+
+gap::before { content: "[…]"; color: #aaa; font-style: italic; }
+
+
+/* ------------------------------------------------------------
+   8. RESPONSIVE FALLBACK
+   On narrow screens the margin channels collapse gracefully:
+   notes become block elements above or below their context.
+   ------------------------------------------------------------ */
+
+@media (max-width: 900px) {
+
+    body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    note[type="marginal"][place="margin_left"],
+    note[type="marginal"][place="margin_right"] {
+        float: none;
+        clear: both;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        text-align: left;
+        border-left: 3px solid #ccc;
+        border-top: none;
+        padding: 0.25em 0.5em;
+        background: #f9f9f9;
+        margin-bottom: 0.5em;
+    }
+}
