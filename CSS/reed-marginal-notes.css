@@ -24,14 +24,14 @@ TEI, text, group, body {
 
 body {
     /* The main text column — centred with wide gutters */
-    max-width: 100%;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 
     /* These are the margin "channels" the notes will float into.
        Must be at least as wide as --margin-note-width below. */
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 100px;
+    padding-right: 100px;
 
     /* Needed so floated notes with negative margins remain visible */
     overflow: visible;
@@ -80,7 +80,7 @@ pb::before {
 
 note[type="marginal"] {
     /* Sizing — tune --margin-note-width to match padding-left/right above */
-    --margin-note-width: 190px;
+    --margin-note-width: 100px;
     --margin-gutter:      16px;   /* breathing room between note and text */
 
     display: block;
