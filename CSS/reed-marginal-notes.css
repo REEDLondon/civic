@@ -24,7 +24,7 @@ TEI, text, group, body {
 
 body {
     /* The main text column — centred with wide gutters */
-    max-width: 780px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 
