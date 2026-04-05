@@ -138,7 +138,7 @@ note[type="marginal"][place="margin_right"] {
    6. FOOTNOTES — keep them inline / below, not in margin
    ------------------------------------------------------------ */
 
-note[type="foot"] {
+/*note[type="foot"] {
     display: inline;
     font-size: 0.8em;
     color: #777;
@@ -147,7 +147,7 @@ note[type="foot"] {
 
 note[type="foot"]::before { content: " ["; }
 note[type="foot"]::after  { content: "]"; }
-
+*/
 
 /* ------------------------------------------------------------
    7. OTHER INLINE ELEMENTS
