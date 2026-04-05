@@ -24,14 +24,14 @@ TEI, text, group, body {
 
 body {
     /* The main text column — centred with wide gutters */
-    max-width: 800px;
+    max-width: 780px;
     margin-left: auto;
     margin-right: auto;
 
     /* These are the margin "channels" the notes will float into.
        Must be at least as wide as --margin-note-width below. */
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 220px;
+    padding-right: 220px;
 
     /* Needed so floated notes with negative margins remain visible */
     overflow: visible;
@@ -135,22 +135,7 @@ note[type="marginal"][place="margin_right"] {
 
 
 /* ------------------------------------------------------------
-   6. FOOTNOTES — keep them inline / below, not in margin
-   ------------------------------------------------------------ */
-
-/*note[type="foot"] {
-    display: inline;
-    font-size: 0.8em;
-    color: #777;
-    vertical-align: super;
-}
-
-note[type="foot"]::before { content: " ["; }
-note[type="foot"]::after  { content: "]"; }
-*/
-
-/* ------------------------------------------------------------
-   7. OTHER INLINE ELEMENTS
+   6. OTHER INLINE ELEMENTS
    ------------------------------------------------------------ */
 
 hi[rend="superscript"]   { vertical-align: super;  font-size: 0.75em; }
@@ -176,7 +161,7 @@ gap::before { content: "[…]"; color: #aaa; font-style: italic; }
 
 
 /* ------------------------------------------------------------
-   8. RESPONSIVE FALLBACK
+   7. RESPONSIVE FALLBACK
    On narrow screens the margin channels collapse gracefully:
    notes become block elements above or below their context.
    ------------------------------------------------------------ */
