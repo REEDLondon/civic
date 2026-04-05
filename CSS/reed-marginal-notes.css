@@ -30,8 +30,8 @@ body {
 
     /* These are the margin "channels" the notes will float into.
        Must be at least as wide as --margin-note-width below. */
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 140px;
+    padding-right: 140px;
 
     /* Needed so floated notes with negative margins remain visible */
     overflow: visible;
